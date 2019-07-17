@@ -1,0 +1,11 @@
+<mj-section full-width="full-width" padding="0px">
+  <mj-column >
+    <mj-image src="header.jpg" padding="0px"></mj-image>
+  </mj-column>
+</mj-section>
+
+<mj-section>
+	<mj-column>
+  	<mj-text align="center" font-size="24px" font-weight="bold">Hola, {{{NOMBRE}}}</mj-text>
+  </mj-column>
+</mj-section>

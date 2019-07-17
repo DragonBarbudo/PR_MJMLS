@@ -1,0 +1,14 @@
+
+
+<mj-section padding="0">
+  	<mj-column>
+    	<mj-image href="https://www.bluepureloyalty.com/" src="powered.png" width="124px" align="right"></mj-image>
+    </mj-column>
+  </mj-section>
+
+  <mj-section padding="0" background-color="#8CB7E8" full-width="full-width">
+  <mj-column padding="0">
+      <mj-image href="https://www.bluepureloyalty.com/" padding="0" width="58px" src="iconoblue.png"></mj-image>
+  </mj-column>
+  </mj-section>
+</mj-wrapper>

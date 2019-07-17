@@ -1,0 +1,31 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all padding="0px"></mj-all>
+      <mj-text font-family="Ubuntu, Helvetica, Arial, sans-serif" padding="0 25px" font-size="13px"></mj-text>
+      <mj-section background-color="#ffffff"></mj-section>
+      <mj-class name="preheader" color="#000000" font-size="11px"></mj-class>
+    </mj-attributes>
+    <mj-style inline="inline">a { text-decoration: none!important; color: inherit!important; }</mj-style>
+  </mj-head>
+  <mj-body background-color="#B31A25">
+    <mj-section>
+      <mj-column width="260">
+        <mj-image src="https://sinergiapublicitaria.com/modules/mdloptionpanel/upload/logo_sinergia_publicitaria.png" alt="Sinergia Publicitaria"  padding="40px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="20px" padding-top="10px">
+      <mj-column>
+        <mj-text align="center" padding="10px 25px" font-size="20px" color="#512d0b"><strong>Gracias por ser cliente de Sinergia Publicitaria</strong></mj-text>
+        <mj-text align="center" font-size="16px" font-family="Arial">Se ha generado una clave de acceso para el panel de clientes. Podrás entrar usando tu correo electrónico y la siguiente contraseña: </mj-text>
+        <mj-text align="center" color="#B31A25" font-size="25px" font-family="Arial, sans-serif" font-weight="bold" line-height="65px" padding-top="20px">kdjsskdjf
+          </mj-text>
+        <mj-text color="#999999">Te recomendamos cambiar esta contraseña una vez que hayas ingresado.</mj-text>
+        <mj-button background-color="#e0e0e0" color="#000000" href="https://sinergiapublicitaria.com/clientes" font-family="Arial, sans-serif" padding="20px 0 0 0" font-weight="bold" font-size="16px">Ingresa ahora</mj-button>
+        <mj-text align="center" color="#000000" font-size="14px" font-family="Arial, sans-serif" padding-top="40px">Te deseamos que tengas un excelente día.
+        </mj-text>
+        <mj-text align="center" font-weight="bold" padding="20px" color="#B31A25">Sinergia Publicitaria</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

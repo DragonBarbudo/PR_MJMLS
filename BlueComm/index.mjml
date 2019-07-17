@@ -1,0 +1,87 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-text align="center" color="#555" />
+    </mj-attributes>
+
+  </mj-head>
+
+  <mj-body background-color="#eee">
+
+    <mj-include path="./header.mjml" />
+    <mj-divider border-width="1px" border-color="lightgrey" />
+
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="24px"><strong>Aprobación de envío de correo</strong></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff">
+      <mj-column>
+        <mj-table>
+          <tr style="border-bottom:1px solid #ecedee;">
+            <td style="padding: 5px;"><strong>Asunto:</strong></td>
+            <td style="padding: 5px;">{{{asunto}}}</td>
+          </tr>
+          <tr style="border-bottom:1px solid #ecedee;">
+            <td style="padding: 5px;"><strong>Fecha de envío:</strong></td>
+            <td style="padding: 5px;">{{{fecha_envio}}}</td>
+          </tr>
+          <tr style="border-bottom:1px solid #ecedee;">
+            <td style="padding: 5px;"><strong>Email remitente:</strong></td>
+            <td style="padding: 5px;">{{{remitente}}}</td>
+          </tr>
+          <tr style="border-bottom:1px solid #ecedee;">
+            <td style="padding: 5px;"><strong>Nombre remitente:</strong></td>
+            <td style="padding: 5px;">{{{remitente_name}}}</td>
+          </tr>
+          <tr style="border-bottom:1px solid #ecedee;">
+            <td style="padding: 5px;"><strong>Tag reconocidos:</strong></td>
+            <td style="padding: 5px;">{{{tag}}}</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+
+    </mj-section>
+
+    <mj-wrapper>
+      <mj-section background-color="#081F40">
+        <mj-column>
+          <mj-text color="#fff">EMAIL POR APROBAR</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column border="1px solid #dddddd">
+          <mj-text padding="20px">{{{htmldinamico}}}</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#081F40">
+        <mj-column>
+          <mj-text color="#fff" font-size="12px">FIN</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-button href="#" width="100%" background-color="#8798A3">Rechazar</mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-button href="#" width="100%" background-color="#7BC143">Aprobar</mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="10px">El presente correo contiene información que es confidencial y también puede contener información privilegiada. Es para uso exclusivo del destinatario. Si usted ha recibido este correo por error por favor notifíquelo por correo electrónico a <a href="mailto:info@bluecomm.mx" style="color:#8698A4; font-weight: bold;">info@bluecomm.mx</a></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-include path="./footer.mjml" />
+
+  </mj-body>
+
+</mjml>

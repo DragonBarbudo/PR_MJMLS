@@ -1,0 +1,64 @@
+<mjml>
+
+  <mj-head>
+	
+    <mj-attributes>
+      <mj-text align="center" color="#555" />
+      <mj-section background-color="#fff" />
+    </mj-attributes>
+
+  </mj-head>
+
+  <mj-body background-color="#eee">
+    <mj-section>
+    <mj-image src="http://34.200.208.80/wp-content/uploads/2018/07/favicon.png" width="100px" margin="20px"></mj-image>
+    </mj-section>
+    <mj-section>
+    	<mj-text align="center" font-size="18px">Simulador Financiero</mj-text>
+    </mj-section>
+    
+    <mj-section border-bottom="2px solid #40BBCC">
+      <mj-column>
+        <mj-text>
+          Valor de la propiedad: <strong style="color:#2E829A">{{valor}}</strong>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text>
+          Plazo: <strong style="color:#2E829A">{{plaza}}</strong>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section border-bottom="2px solid #40BBCC">
+      <mj-column>
+        <mj-text>
+          Enganche: <strong style="color:#2E829A">{{engancheP}}</strong>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text>
+          $: <strong style="color:#2E829A">{{enganche}}</strong>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section border-bottom="2px solid #40BBCC">
+      <mj-column>
+        <mj-text>
+          Pago mensual estimado: <strong style="color:#2E829A">{{pago}}</strong>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text>
+          Monto del préstamo: <strong style="color:#2E829A">{{monto}}</strong>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section border-bottom="2px solid #40BBCC" padding="40px">
+      <mj-image src="http://34.200.208.80/wp-content/uploads/2018/07/favicon.png"></mj-image>
+    </mj-section>
+    
+  </mj-body>
+</mjml>

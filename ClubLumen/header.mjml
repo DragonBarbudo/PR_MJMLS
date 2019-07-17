@@ -1,0 +1,12 @@
+<mj-section>
+
+  <mj-column>
+    <mj-image src="clublumen.png" width="400px"></mj-image>
+  </mj-column>
+</mj-section>
+
+<mj-section padding="0">
+	<mj-column>
+  	<mj-text align="center" font-size="26px" font-weight="bold">Hola {{{NOMBRE}}}</mj-text>
+  </mj-column>
+</mj-section>

@@ -1,0 +1,64 @@
+<mj-wrapper background-color="#fff">
+<mj-section padding="0" background-color="#121C2C" vertical-align="middle">
+	<mj-column width="30%" vertical-align="middle">
+  	<mj-text color="#fff" vertical-align="middle" align="center">
+      Síguenos en <img src="facebook.png" width="22px" style="vertical-align:middle; margin-left:10px;">
+    </mj-text>   
+  </mj-column>
+ 
+
+  <mj-column width="50%" vertical-align="middle">
+    <mj-table>
+    	<tr>
+      	<td style="text-align:center; padding:4px;"><a href="https://www.facebook.com/waldosoficial/" target="_blank"><img src="fb_waldos.png" width="45px"></a></td>
+        <td  style="text-align:center; padding:4px;"><a href="https://www.facebook.com/Eleczionoficial/" target="_blank"><img src="fb_eleczion.png" width="74px"></a></td>
+        <td  style="text-align:center; padding:4px;"><a href="https://www.facebook.com/ExprezionOficial/" target="_blank"><img src="fb_exprezion.png"  width="74px"></a></td>
+      </tr>
+    </mj-table>
+    
+    
+   
+  </mj-column>
+
+</mj-section>
+
+<mj-section padding="0">
+  <mj-column>
+    <mj-image padding="0" src="recompensas1.jpg"></mj-image>
+  </mj-column>
+</mj-section>
+
+<mj-section>
+	<mj-column>
+  	<mj-text align="center" font-size="18px" font-weight="bold">Tienes un saldo de {{{PUNTOS}}} Puntos Recompensas</mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section padding="0">
+  <mj-column>
+		<mj-image padding="0" src="unpunto.gif"></mj-image>
+    <mj-image padding="0" src="descarga.png"></mj-image>
+  </mj-column>
+</mj-section>
+
+<mj-section padding="0">
+  <mj-column>
+    <mj-image padding="0" align="center" href="https://play.google.com/store/apps/details?id=com.bluepureloyalty.BlueWallet" src="googleplay.png" width="180px"></mj-image>
+  </mj-column>
+  <mj-column>
+    <mj-image padding="0" align="center" href="https://itunes.apple.com/us/app/bluewallet/id1202908122?mt=8" src="appstore.png" width="180px"></mj-image>
+  </mj-column>
+</mj-section>
+
+<mj-section padding="0">
+  	<mj-column>
+    	<mj-image src="powered.png" width="124px" align="right"></mj-image>
+    </mj-column>
+  </mj-section>
+
+  <mj-section padding="0" background-color="#8CB7E8" full-width="full-width">
+  <mj-column padding="0">
+      <mj-image padding="0" width="58px" src="iconoblue.png"></mj-image>
+  </mj-column>
+  </mj-section>
+</mj-wrapper>

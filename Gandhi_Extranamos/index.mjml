@@ -1,0 +1,47 @@
+<mjml>
+
+  <mj-head>
+    <mj-style>
+    	@media (max-width:500px){
+      	.flink{ display:block;}
+      }
+    </mj-style>
+
+    <mj-attributes>
+      <mj-text align="center" color="#555" font-family="Calibri, Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+
+  </mj-head>
+
+  <mj-body background-color="#fff">
+
+    <mj-include path="./header.mjml" />
+    
+    <mj-image src="teextranamos.jpg" padding="0"></mj-image>
+
+    <mj-section background-color="#652281" padding="20px 0">
+      <mj-column padding="0">
+        <mj-image src="texto.png" padding="0" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#652281">
+    	<mj-column>
+        <mj-text align="left" color="#fff" font-weight="bold">Términos y condiciones</mj-text>
+      	<mj-text align="left" color="#fff">
+          <ul>
+          	<li>Válido únicamente en tu siguiente compra presentando tu tarjeta Página 1.</li>
+            <li>No aplica con otras promociones.</li>
+            <li>Vigencia al 31 de marzo de 2019.</li>
+          </ul>
+        </mj-text>
+        <mj-text color="#fff" font-size="13px">
+        	En caso de que tu membresía haya sido robada o extraviada da <a href="https://www.pagina1.com.mx/Inicio.aspx" target="_blank" style="color:#fff; font-weight:bold;">click aquí</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./footer.mjml" />
+
+  </mj-body>
+
+</mjml>

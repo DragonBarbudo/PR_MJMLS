@@ -1,0 +1,15 @@
+<mj-section>
+
+  <mj-column>
+    <mj-image src="pagina1.png" href="https://www.pagina1.com.mx/Bienvenido.aspx"></mj-image>
+  </mj-column>
+  <mj-column>
+    <mj-image width="140px" src="gandhi.png" href="https://www.gandhi.com.mx/"></mj-image>
+  </mj-column>
+</mj-section>
+
+<mj-section background-color="#FDDB02">
+	<mj-column>
+  	<mj-text align="center" color="#652281" font-size="24px" font-weight="bold">Hola, {{{Nombre}}}</mj-text>
+  </mj-column>
+</mj-section>

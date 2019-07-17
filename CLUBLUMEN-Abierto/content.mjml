@@ -1,0 +1,46 @@
+<mj-section  padding="0">
+    	<mj-column>
+      	<mj-text>
+          ¡Este es el concurso de arte que estabas esperando! Uno hecho especialmente para ti.
+          </br>
+          El <strong>Abierto de Pintura Lumen 2019</strong> reconoce el talento y la creatividad de los artistas autodidactas en sus cuatro categorías:
+          </mj-text>
+          <mj-text>
+            En Lumen nos interesa ofrecer un foro de participación donde puedan mostrar su talento, por eso hemos aumentado el número de categorías en más disciplinas:
+          </mj-text>
+          <mj-text color="#00AEEF" font-size="16px">
+            <strong>Pintura, Dibujo, Ilustración y Arte Urbano</strong>
+          </mj-text>
+          <mj-text>
+            Recuerda, únicamente <strong>no pueden participar los estudiantes o egresados de las dos carreras que llevan por nombre:
+            </br>
+            Licenciatura en Artes Visuales y Licenciatura en Artes Plasticas.</strong>
+      		</mj-text>
+    			<mj-text>
+            <strong>Participia con técnica tradicional, digital y mixta.</strong>
+            </br>
+    				Utilizando: Óleo, acrílico, acuarela, gouache, grafito, pastel, lápices de color, tinta, aerosol,
+marcador, plumón o usando softwares creativos, como Photoshop o Illustrator.
+       		</mj-text>
+  				<mj-text><strong>Cierre de convocatoria:</strong></mj-text>
+  				<mj-text font-size="24px"><strong>30 de agosto del 2019</strong></mj-text>
+ 					<mj-text font-size="16px">
+            <strong style="color:#ED1B2E;">PREMIO</strong>
+            </br>
+  					<strong style="color:#ED1B2E;">60,000 pesos MXN</strong> en efectivo, más <strong style="color:#ED1B2E;">20,000 pesos MXN</strong> en tarjeta Club Lumen
+ 					</mj-text>
+ 					<mj-text color="#00AEEF" font-size="16px"><strong>¡Registrarse no tiene costo, lee las bases y participa!</strong></mj-text>
+ 					<mj-text>
+  					Toda la información en:
+            </br></br>
+						<a href="https://bit.ly/320ZKpV"><strong>www.abiertolumen.com.mx</strong></a>
+ 					</mj-text>  
+        
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+<mj-section>
+      <mj-column><mj-image href="https://bit.ly/2FBeBxy" src="btn_registrate.png" width="228px"></mj-image></mj-column>
+			<mj-column><mj-image href="https://bit.ly/2L2K4wW" src="btn_bases.png" width="228px"></mj-image></mj-column>
+ 		</mj-section>

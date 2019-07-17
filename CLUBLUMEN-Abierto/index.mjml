@@ -1,0 +1,38 @@
+<mjml>
+
+  <mj-head>
+    <mj-breakpoint width="0" />
+    <mj-attributes>
+      <mj-text padding="14px" font-size="13px" color="#000" align="center"></mj-text>
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body width="800px">
+
+    <mj-include path="./header.mjml" />
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image href="http://bit.ly/2Jd0SjM" padding="0" src="abierto.png"></mj-image>
+        <mj-image href="https://www.youtube.com/watch?v=XBEFxMdFUpI" padding="0" src="play.jpg"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+ 
+    <mj-include path="./content.mjml" />
+    
+		
+
+
+    
+    <mj-section  padding="0">
+      <mj-column>
+        <mj-image href="http://bit.ly/2Jd0SjM" padding="0" src="participa.jpg"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./footer.mjml" />
+
+  </mj-body>
+
+</mjml>

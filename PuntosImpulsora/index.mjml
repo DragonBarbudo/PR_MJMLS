@@ -1,0 +1,28 @@
+<mjml>
+
+
+  <mj-body background-color="#eee">
+
+    <mj-include path="./header.mjml" />
+
+    <mj-section padding="0">
+      <mj-column>
+      	<mj-image padding="0" src="body.jpg" target="_blank" href="http://www.impulsora.com/"></mj-image>
+        
+      </mj-column>
+    </mj-section>
+    
+    <mj-section background-color="#093F52">
+      <mj-column>
+    		<mj-text align="center" color="#ffffff">Vigencia de la promoción del Martes 29 de Enero al Viernes 01 de Febrero 2019.
+Válido en sucursales participantes. </mj-text>
+    	</mj-column>
+    </mj-section>
+
+ 
+
+    <mj-include path="./footer.mjml" />
+
+  </mj-body>
+
+</mjml>

@@ -1,0 +1,80 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-text align="center" color="#555" background-color="#ffffff" />
+    </mj-attributes>
+		<mj-style>
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#fff">
+
+    <mj-include path="./header.mjml" />
+    
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-image src="meta.png" padding="0"></mj-image>
+      </mj-column>
+    </mj-section>
+		
+    <mj-section padding="8px 0px 4px 0px">
+    	<mj-column>
+      	<mj-text align="left" font-size="24px" color="#043D5D" font-weight="bold" padding-bottom="0px">Tarjetas Vendidas</mj-text>
+      	<mj-text align="left" font-size="16px" color="#aaa" padding-top="8px">la semana pasada</mj-text>
+      </mj-column>
+			<mj-column background-color="#043D5D" padding="12px">
+      	<mj-text font-size="24px" color="#fff" font-weight="bold">{{{num}}}</mj-text>
+      </mj-column>
+    </mj-section>
+    
+    
+   
+    <mj-section padding="4px 0px">
+    	<mj-column>
+      	<mj-text align="left" font-size="24px" color="#043D5D" font-weight="bold" padding-bottom="0px">Meta</mj-text>
+      	<mj-text align="left" font-size="16px" color="#aaa" padding-top="8px">de ventas</mj-text>
+      </mj-column>
+			<mj-column background-color="#043D5D" padding="12px">
+      	<mj-text font-size="24px" color="#fff" font-weight="bold">{{{meta}}}</mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <!--<mj-section>
+    	<mj-column>
+      	<mj-text color="#00CAC8" font-weight="bold" font-size="26px">¡FELICIDADES, LOGRASTE TU META SEMANAL!</mj-text>
+      </mj-column>
+    </mj-section>
+    -->
+    <mj-section>
+    	<mj-column>
+      	<mj-text color="#00CAC8" font-weight="bold" font-size="26px">CONTINÚA ESFORZÁNDOTE, PRONTO ALCANZARÁS TU META SEMANAL</mj-text>
+      </mj-column>
+    </mj-section>
+    
+    
+    <mj-divider border-color="#C83E34"></mj-divider>
+    <mj-section padding="0">
+    	<mj-column>
+      	<mj-text color="#C83E34" font-weight="bold" font-size="26px">IMPORTANTE</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+    	<mj-column>
+      	<mj-text color="#C83E34" font-weight="bold" font-size="20px">RECUERDA, POR CADA TARJETA VENDIDA OBTIENES UNA COMISIÓN DE $10.00</mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section>
+    	<mj-column>
+      	<mj-text color="#C83E34" font-weight="bold" font-size="20px">TU META SON {{{...}}} TARJETAS DIARIAS</mj-text>
+      
+    </mj-section>
+
+ 
+
+    <mj-include path="./footer.mjml" />
+
+  </mj-body>
+
+</mjml>

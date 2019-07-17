@@ -1,0 +1,40 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-include path="./header.mjml" />
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image href="http://www.lumen.com.mx/" src="comunicado.jpg"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image href="http://www.lumen.com.mx/" src="marca.jpg"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section  padding="0">
+    	<mj-column>
+      	<mj-text font-size="10px" color="#5C5C5C">La bonificación en puntos no aplica en compras mayoreo. No aplica en venta en línea. No aplica con otras promociones y descuentos. Todos los productos del área de impresión se excluyen de la promoción de Compra y Recibes un Bono, seguirán con sus promociones actuales. Vigencia de la promoción del 23 al 29 de Abril de 2019. Los artículos de referencia están sujetos a disponibilidad. Para más información sobre el programa ingresa a www.clublumen.com.mx</mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section  padding="0">
+      <mj-column>
+        <mj-image href="http://www.lumen.com.mx/" src="productos.jpg"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./footer.mjml" />
+
+  </mj-body>
+
+</mjml>

@@ -1,0 +1,16 @@
+<mj-section full-width="full-width" padding="0">
+  <mj-column >
+    <mj-image width="260px" src="header.png" padding="0"></mj-image>
+  </mj-column>
+</mj-section>
+<mj-section padding="0" >
+	<mj-column padding="0">
+    <mj-image src="headerbar.png" padding="0"></mj-image>
+  </mj-column>
+</mj-section>
+
+<mj-section>
+	<mj-column>
+  	<mj-text align="center" font-size="30px" font-weight="bold">Hola, {{{Tienda}}}</mj-text>
+  </mj-column>
+</mj-section>
