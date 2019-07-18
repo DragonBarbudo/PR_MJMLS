@@ -1,0 +1,23 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="0px"></mj-breakpoint>
+    <mj-attributes>
+      <mj-text padding="14px" font-size="13px" color="#000" align="center"></mj-text>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#fff">
+    <mj-include path="./_header.mjml"></mj-include>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image padding="0px" src="comunicado.jpg" href="http://www.clublumen.com.mx/"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section  padding="0">
+      <mj-column>
+        <mj-image padding="0px" src="comunicado2.jpg" href="http://www.clublumen.com.mx/"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./_footer.mjml"></mj-include>
+  </mj-body>
+</mjml>
