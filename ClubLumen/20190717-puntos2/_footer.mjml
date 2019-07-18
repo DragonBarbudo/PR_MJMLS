@@ -34,14 +34,13 @@
 <mj-section>
     	<mj-column>
       	<mj-text font-size="10px" color="#666">
-Términos y Condiciones: No aplica en venta en línea. Se otorga un Bono de 70 Puntos Lumen en la cuenta del socio para ocuparse del 20 al 21 de Julio de 2019. En caso de no utilizarse el Bono de Puntos Lumen del 20 al 21 de Julio de 2019 se retirarán de la cuenta del socio. No aplica con otras promociones y descuentos. Vigencia de la promoción del 20 al 21 de Julio de 2019.
+Términos y Condiciones: No aplica en venta en línea. Se otorga un Bono de 150 Puntos Lumen en la cuenta del socio para ocuparse del 20 al 21 de Julio de 2019. En caso de no utilizarse el Bono de Puntos Lumen del 20 al 21 de Julio de 2019 se retirarán de la cuenta del socio. No aplica con otras promociones y descuentos. Vigencia de la promoción del 20 al 21 de Julio de 2019.
         </mj-text>
       </mj-column>
     </mj-section>
 
 
-<mj-include path="./_bluewallet.mjml" />
-
+<!--<mj-include path="./_bluewallet.mjml" />-->
 
 <mj-section padding="0">
   	<mj-column>

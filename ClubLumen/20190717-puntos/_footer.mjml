@@ -40,7 +40,7 @@ Términos y Condiciones: No aplica en venta en línea. Se otorga un Bono de 70 P
     </mj-section>
 
 
-<mj-include path="./_bluewallet.mjml" />
+<!--<mj-include path="./_bluewallet.mjml" />-->
 
 
 <mj-section padding="0">
