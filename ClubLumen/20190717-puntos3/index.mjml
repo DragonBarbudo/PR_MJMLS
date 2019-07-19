@@ -10,7 +10,7 @@
 
     <mj-section padding="0">
       <mj-column>
-        <mj-image padding="0px" src="comunicado.jpg" href="http://www.clublumen.com.mx/"></mj-image>
+        <mj-image padding="0px" src="comunicado.gif" href="http://www.clublumen.com.mx/"></mj-image>
       </mj-column>
     </mj-section>
     <mj-section  padding="0">
@@ -18,6 +18,7 @@
         <mj-image padding="0px" src="comunicado2.jpg" href="http://www.clublumen.com.mx/"></mj-image>
       </mj-column>
     </mj-section>
+    <mj-include path="./_recomendados.mjml"></mj-include>
     <mj-include path="./_footer.mjml"></mj-include>
   </mj-body>
 </mjml>

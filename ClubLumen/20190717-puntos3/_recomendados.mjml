@@ -1,0 +1,20 @@
+<mj-section padding="0">
+  <mj-column>
+    <mj-text align="left" color="#888" font-size="16px">TE RECOMENDAMOS:</mj-text>
+  </mj-column>
+</mj-section>
+<mj-section>
+  <mj-column>
+    <mj-image padding="0" src="producto1.jpg" href="http://bit.ly/2Z0qX9Y"></mj-image>
+  </mj-column>
+  <mj-column>
+    <mj-image padding="0" src="producto2.jpg" href="http://bit.ly/32z0v9N"></mj-image>
+  </mj-column>
+
+  <mj-column>
+    <mj-image padding="0" src="producto3.jpg" href="http://bit.ly/2LuyCuj"></mj-image>
+  </mj-column>
+  <mj-column>
+    <mj-image  padding="0" src="producto4.jpg" href="http://bit.ly/2LW6RKm"></mj-image>
+  </mj-column>
+</mj-section>

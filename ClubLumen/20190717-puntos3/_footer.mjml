@@ -20,7 +20,7 @@
 </mj-section>
 
 <mj-section padding="0"><mj-column><mj-divider padding="0" border-color="#00ABEE" /></mj-column></mj-section>
-
+<!--
 <mj-section>
 	<mj-column width="50%">
   	<mj-image href="http://www.lumen.com.mx/" src="socioclublumen.png" width="400px"></mj-image>
@@ -29,7 +29,7 @@
   	<mj-image href="http://www.lumen.com.mx/" src="1punto1peso.png" width="300px"></mj-image>
   </mj-column>
 </mj-section>
-
+-->
 
 <mj-section>
     	<mj-column>
