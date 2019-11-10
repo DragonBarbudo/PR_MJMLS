@@ -1,0 +1,45 @@
+<mj-section background-color="#EEEEEE">
+  <mj-column>
+    <mj-image src="http://enlaces.gandhi.com.mx/templates/gandhi1es/i/cultura1.png" src="http://www.mascultura.mx/" width="214px"></mj-image>
+  </mj-column>
+  <mj-column>
+    <mj-image src="http://enlaces.gandhi.com.mx/templates/gandhi1es/i/liamada1.png" width="157px"></mj-image>
+  </mj-column>
+  <mj-column>
+    <mj-image src="http://enlaces.gandhi.com.mx/templates/gandhi1es/i/tel3.png" width="182px"></mj-image>
+  </mj-column>
+</mj-section>
+<mj-section background-color="#EEEEEE">
+  <mj-group width="50%">
+    <mj-column>
+      <mj-image padding="0" src="http://enlaces.gandhi.com.mx/templates/gandhi1es/i/fb1.png" href="https://www.facebook.com/LibreriasGandhi" width="40px"></mj-image>
+    </mj-column>
+    <mj-column>
+      <mj-image padding="0" src="http://enlaces.gandhi.com.mx/templates/gandhi1es/i/tw1.png" href="https://twitter.com/LibreriasGandhi" width="40px"></mj-image>
+    </mj-column>
+    <mj-column>
+      <mj-image padding="0" src="http://enlaces.gandhi.com.mx/templates/gandhi1es/i/yt1.png" href="https://www.youtube.com/user/gandhicom" width="40px"></mj-image>
+    </mj-column>
+    <mj-column>
+      <mj-image padding="0" src="http://enlaces.gandhi.com.mx/templates/gandhi1es/i/in1.png" href="https://www.instagram.com/librerias_gandhi/" width="40px"></mj-image>
+    </mj-column>
+    <mj-column>
+      <mj-image padding="0" src="http://enlaces.gandhi.com.mx/templates/gandhi1es/i/ma1.png" href="https://www.gandhi.com.mx/sucursales" width="40px"></mj-image>
+    </mj-column>
+  </mj-group>
+</mj-section>
+<mj-section background-color="#FAE100" padding-bottom="10px">
+  <mj-column>
+    <mj-image src="http://enlaces.gandhi.com.mx/custloads/765326283/md_259167.png" href="http://www.gandhi.com.mx/" width="247px"></mj-image>
+    <mj-divider border-width="1px" border-color="#B4A200" /> </mj-column>
+</mj-section>
+<mj-section background-color="#FAE100" padding-top="0" padding-bottom="20px">
+  <mj-column>
+    <mj-text color="#000" align="center" font-size="10px"> <a style="color:#000; text-decoration:none;" href="mailto:noreply@correo.gandhi.com.mx">Agréganos a tu lista de contactos</a> | <a style="color:#000; text-decoration:none;" href="http://enlaces.gandhi.com.mx/u/un.php?par=$uid$_1869964_$llid$_$sid$">Darse de baja</a>      | <a style="color:#000; text-decoration:none;" href="mailto:noreply@correo.gandhi.com.mx">Ver en mi navegador</a> </mj-text>
+    <mj-text padding="5px" color="#000" padding-left="40px" padding-right="40px" font-size="10px" align="center">Recibiste este correo por que estás suscrito a nuestro boletín para recibir promociones entre otros beneficios especiales y notas sobre temas de tu interés.</mj-text>
+    <mj-text padding="5px" color="#000" padding-left="40px" padding-right="40px" font-size="10px" align="center" font-weight="bold">LIBRERÍAS GANDHI, S.A DE C.V. y/o GANDHI, con domicilio en Av. Gobernador Vicente Eguia, Número 46, piso 7, Col. San Miguel Chapultepec, Del. Miguel Hidalgo, C.P. 11850, Ciudad de México, utilizará los datos personales aquí recabados para brindarle
+      el servicio solicitado únicamente.</mj-text>
+    <mj-text padding="5px" color="#000" font-size="10px" align="center" font-weight="bold">Consulta nuestro Aviso de Privacidad haciendo clic <a style="color:#000; " href="http://www.gandhi.com.mx/politicas/avisos-de-privacidad">aquí</a>.</mj-text>
+    <mj-text padding="5px" color="#000" font-size="10px" align="center" font-weight="bold">Para mayor información escríbenos a <a style="color:#000; " href="mailto:elcliente@gandhi.com.mx">elcliente@gandhi.com.mx</a>.</mj-text>
+  </mj-column>
+</mj-section>

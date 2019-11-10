@@ -1,0 +1,19 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text align="center" color="#555" /> </mj-attributes>
+  </mj-head>
+  <mj-body width="700px" background-color="#fff">
+    <mj-include path="./header.mjml" />
+    <mj-section padding-bottom="0">
+      <mj-column>
+        <mj-image padding="2px" src="http://enlaces.gandhi.com.mx/custloads/765326283/md_708061.jpg" href="https://www.gandhi.com.mx/sucursales"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="0">
+      <mj-column>
+        <mj-image padding="2px" src="http://enlaces.gandhi.com.mx/custloads/765326283/md_708029.jpg" href="https://www.gandhi.com.mx/sucursales"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./footer.mjml" /> </mj-body>
+</mjml>

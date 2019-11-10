@@ -1,0 +1,38 @@
+<mj-section>
+  <mj-column>
+    <mj-text padding="0" font-size="10px" align="center"><a style="color:#000; text-decoration: none;" target="_blank" href="">Ver en mi navegador</a></mj-text>
+    <mj-text font-size="10px" align="center">Entérate de nuevos productos y promociones agregando <a style="color:#000; text-decoration: none;" href="ailto:noreply@correo.gandhi.com.mx"><b>noreply@correo.gandhi.com.mx</b></a> a tu lista de contactos. </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section padding="0">
+  <mj-column>
+    <mj-image src="http://enlaces.gandhi.com.mx/custloads/765326283/md_259166.png" href="http://www.gandhi.com.mx/" width="247px"></mj-image>
+  </mj-column>
+  <mj-column>
+    <mj-social padding-top="20px" align="right" font-size="15px" icon-size="30px" mode="horizontal">
+      <mj-social-element icon-size="26px" name="facebook" border-radius="4px" href="https://www.facebook.com/LibreriasGandhi"> </mj-social-element>
+      <mj-social-element icon-size="26px" name="twitter" border-radius="4px" href="https://twitter.com/LibreriasGandhi"> </mj-social-element>
+      <mj-social-element icon-size="26px" name="instagram" border-radius="4px" background-color="#F51E87" href="https://www.instagram.com/librerias_gandhi/"> </mj-social-element>
+      <mj-social-element icon-size="26px" name="youtube" border-radius="4px" href="https://www.youtube.com/user/gandhicom"> </mj-social-element>
+    </mj-social>
+  </mj-column>
+</mj-section>
+<mj-section padding="0">
+  <mj-column>
+    <mj-image padding-top="0" align="right" width="427px" src="http://enlaces.gandhi.com.mx/custloads/765326283/md_60740.jpg"></mj-image>
+  </mj-column>
+</mj-section>
+<mj-section padding="0">
+  <mj-column>
+    <mj-navbar base-url="http://www.gandhi.com.mx" ico-align="right" hamburger="hamburger">
+      <mj-navbar-link font-size="12px" padding="6px" text-transform="capitalize" href="/libros">Libros</mj-navbar-link>
+      <mj-navbar-link font-size="12px" padding="6px" text-transform="capitalize" href="/ninos">Niños</mj-navbar-link>
+      <mj-navbar-link font-size="12px" padding="6px"text-transform="capitalize" href="/adolescentes">Adolescentes</mj-navbar-link>
+      <mj-navbar-link font-size="12px" padding="6px" text-transform="capitalize" href="/libros-electronicos-1">Libros electrónicos</mj-navbar-link>
+      <mj-navbar-link font-size="12px" padding="6px" text-transform="capitalize" href="/kobo">Kobo</mj-navbar-link>
+      <mj-navbar-link font-size="12px" padding="6px" text-transform="capitalize" href="/videojuegos">Videojuegos</mj-navbar-link>
+      <mj-navbar-link font-size="12px" padding="6px" text-transform="capitalize" href="/accesorios">Accesorios</mj-navbar-link>
+    </mj-navbar>
+    <mj-divider border-width="1px" border-color="lightgrey" />
+  </mj-column>
+</mj-section>

@@ -1,0 +1,79 @@
+<mjml>
+
+  <mj-head>
+    <mj-breakpoint width="0" />
+    <mj-attributes>
+      <mj-text padding="14px" font-size="13px" color="#000" align="center"></mj-text>
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body width="800px">
+
+    <mj-include path="./_header.mjml" />
+
+
+    
+ 
+    <mj-section>
+    	<mj-column>
+      	<mj-image padding="0" src="hoy.jpg" href="http://www.clublumen.com.mx/"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section>
+    	<mj-column>
+      	<mj-image padding="0" src="comunicado.jpg" href="http://www.clublumen.com.mx/"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section>
+    	<mj-column>
+      	<mj-image padding="0" src="banner1.jpg" href="http://bit.ly/2OgcG8s"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section>
+    	<mj-column>
+      	<mj-image padding="0" src="banner2.jpg" href=""></mj-image>
+      </mj-column>
+    </mj-section>
+    
+
+    
+    <mj-section>
+    	<mj-column>
+      	<mj-image src="producto1.jpg" href="http://bit.ly/2JY6LPX"></mj-image>
+      </mj-column>
+      <mj-column>
+      	<mj-image src="producto2.jpg" href="http://bit.ly/2yavBGR"></mj-image>
+      </mj-column>
+
+    </mj-section>
+    
+    
+   	
+    <mj-section>
+    	<mj-column>
+      	<mj-image src="producto3.jpg" href="http://bit.ly/2YpkSHd"></mj-image>
+      </mj-column>
+      <mj-column>
+      	<mj-image src="producto4.jpg" href="http://bit.ly/2GqWAma"></mj-image>
+      </mj-column>
+
+    </mj-section>
+    
+    
+    
+    
+    
+		
+
+
+    
+   
+
+    <mj-include path="./_footer.mjml" />
+
+  </mj-body>
+
+</mjml>

@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head></head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <title>Punti Tutti Pelle</title>
+  <meta name="description" content="Punti Tutti Pelle"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+ 
+  <link rel="stylesheet" href="app/app.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,700|Open+Sans+Condensed:700" rel="stylesheet"/>
+  <link rel="icon" type="image/png" href="favicon.png"/>
+</html>
+<body data-spy="scroll" data-target=".navbar" data-offset="80">
+  <header>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col text-center main-logo"><a href="index.html"><img src="img/logo_header.png" alt="Punti Tutti Pelle" class="img-responsive"></a></div>
+      </div>
+      <div class="row justify-content-center">
+        <ul>
+          <li class="nav-item"><a class="smooth-scroll" href="index.html#que-es">¿Qué es?</a></li>
+          <li class="nav-item"><a class="smooth-scroll" href="index.html#registro">Registro</a></li>
+          <li class="nav-item"><a class="smooth-scroll" href="index.html#bluewallet">BlueWallet</a></li>
+          <li class="nav-item"><a class="smooth-scroll" href="index.html#promociones">Promociones</a></li>
+          <li class="nav-item"><a class="smooth-scroll" href="index.html#contactoinf">Contacto</a></li>
+          <li class="nav-item"><a class="smooth-scroll" href="micuenta.html" data-toggle="modal" data-target="#loginForm">Mi Cuenta</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <nav class="navbar bg-light navbar-expand-xl fixed-top">
+    <div class="container"><a class="navbar-brand smooth-scroll" href="#mainpage"><img src=img/logo_header.png></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"><span class="fa fa-bars"></span></button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+       <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html#que-es">¿Qué es?</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html#registro">Registro</a></li>
+           <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html#bluewallet">BlueWallet</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html#promociones">Promociones</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html#contactoinf">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="micuenta.html" data-toggle="modal" data-target="#loginForm">Mi Cuenta</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="mi-cuenta">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-sm-12 text-center">
+          <h2>Mi Cuenta</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <nav>
+            <div class="nav nav-tabs" role="tablist" id="nav-tab"><a class="nav-item nav-link active" data-toggle="tab" href="#nav-personales" role="tab">Datos Personales</a><a class="nav-item nav-link" data-toggle="tab" href="#nav-estado" role="tab">Estado de Cuenta</a><a class="nav-item nav-link" data-toggle="tab" href="#nav-datos" role="tab">Datos de Acceso</a><!--<a class="nav-item nav-link" data-toggle="tab" href="#historico" role="tab">Histórico de Canjes</a>-->
+              <!--a(data-toggle="tab" href="#nav-registro" role="tab").nav-item.nav-link Registro de ventas-->
+              <!--a(data-toggle="tab" href="#nav-material" role="tab").nav-item.nav-link Material de capacitación-->
+            </div>
+          </nav>
+          <div class="tab-content">
+            <div class="tab-pane active" role="tabpanel" id="nav-personales">
+              <div class="row">
+                <div class="col-md-8 offset-md-2">
+                  <form><br/>
+            <div class="form-group row">
+             <label class="col-form-label col-5 text-right">Número de tarjeta</label> <input class="form-control col-7" type="text" placeholder="Número de tarjeta"/>
+            </div>
+           <div class="form-group row">
+              <label class="col-form-label col-5 text-right">Nombre</label>
+              <input class="form-control col-7" placeholder="Nombre"/>
+            </div>
+            <div class="form-group row">
+              <label class="col-form-label col-5 text-right">Apellido Paterno</label>
+              <input class="form-control col-7" placeholder="Apellido Paterno"/>
+            </div>
+            <div class="form-group row">
+              <label class="col-form-label col-5 text-right">Apellido Materno</label>
+              <input class="form-control col-7" placeholder="Apellido Materno"/>
+            </div>
+            <div class="form-group row">
+              <label class="col-form-label col-5 text-right">
+                <div>Género</div>
+              </label>
+              <div class="col-7">
+                <div class="form-check form-check-inline">
+                  <label>
+                    <input class="form-check-input" type="radio" name="eval17"/><span>Femenino</span>
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <label>
+                    <input class="form-check-input" type="radio" name="eval17"/><span>Masculino</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-form-label col-5 text-right">Fecha de nacimiento</label>
+              <input class="form-control col-7" type="date" placeholder="Fecha de nacimiento"/>
+            </div>
+            <div class="form-group row">
+              <label class="col-form-label col-5 text-right">Correo electrónico</label>
+              <input class="form-control col-7" placeholder="Correo electrónico"/>
+            </div>
+            <div class="form-group row">
+              <label class="col-form-label col-5 text-right">Confirmar Correo Electrónico</label>
+              <input class="form-control col-7" placeholder="Confirmar Correo Electrónico"/>
+            </div>
+          
+            <div class="form-group row">
+              <label class="col-form-label col-5 text-right">Número Telefónico</label>
+              <input class="form-control col-7" type="tel" placeholder="Número Telefónico"/>
+            </div>
+              <div class="form-group row">
+              <label class="col-form-label col-5 text-right">
+                <div></div>
+              </label>
+              <div class="col-7">
+                <div class="form-check form-check-inline">
+                  <label>
+                    <input class="form-check-input" type="radio" name="eval17"/><span>Celular</span>
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <label>
+                    <input class="form-check-input" type="radio" name="eval17"/><span>Fijo</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label class="col-form-label col-5 text-right">Código Postal</label>
+              <input class="form-control col-7" type="number" placeholder="Código Postal"/>
+            </div>
+            <div class="form-group row">
+              <label class="col-form-label col-5 text-right">Contraseña </label>
+              <input class="form-control col-7" type="password" placeholder="Ingrese una contraseña"/>
+            </div>
+            <div class="form-group row">
+              <label class="col-form-label col-5 text-right"></label>
+              <p class="form-control col-7"><small>La contraseña debe ser mínimo de 6 caracteres, puede incluir mayúsculas, minúsculas, números y caracteres especiales.</small></p>    
+            </div>
+            <div class="form-group row">
+              <label class="col-form-label col-5 text-right">Confirmar contraseña</label>
+              <input class="form-control col-7" type="password" placeholder="Confirme la contraseña ingresada"/>
+            </div>
+            <div class="form-group row">
+              <div class="col offset-5">
+                <label>
+                  <input type="checkbox"><span> Acepto Términos y Condiciones de Punti Tutti Pelle.</span>
+                </label>
+                <label>
+                  <input type="checkbox"><span> Estoy de acuerdo con la Política de Privacidad.</span>
+                </label>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col text-center">
+                <button class="btn btn-large btn-primary" type="submit">Registrarme</button>
+              </div>
+            </div>
+          </form>
+     
+                  <div class="col text-center">
+                    <button class="btn btn-large btn-primary" type="submit">Editar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" role="tabpanel" id="nav-estado">
+              <div class="row">
+                <div class="col-md-8 offset-2 text-center mt-5 mb-5">
+                  <h3>Saldo en Punti Tutti Pelle al día de hoy: <strong class="main">2,010.00 puntos</strong></h3>
+                  <div class="hr"></div>
+                  <table class="table">
+                    <tr>
+                      <td>Periodo:</td>
+                      <td>
+                        <select class="form-control">
+                          <option>Julio 2019</option>
+                          <option>Agosto 2019</option>
+                        </select>
+                      </td>
+                      <td><strong class="main">Julio del 2019 a Diciembre del 2019</strong></td>
+                    </tr>
+                  </table>
+                  <table class="table">
+                    <tr>
+                      <td>Puntos Parfois acumulados: <strong class="main">10,500.00</strong></td>
+                      <td>Puntos Parfois canjeados: <strong class="main">18,990.00</strong></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="hr"></div>
+              <div class="text-center">
+                <h3>Detalle del periodo</h3>
+              </div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Fecha</th>
+                    <th scope="col">Concepto</th>
+                    <th scope="col">Puntos</th>
+                    <th scope="col">Saldo</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="col">05/07/2019</td>
+                    <td>Acumulación 1</td>
+                    <td>100</td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <td scope="col">05/07/2019</td>
+                    <td>Acumulación 2</td>
+                    <td>100</td>
+                    <td>200</td>
+                  </tr>
+                  <tr>
+                    <td scope="col">05/07/2019</td>
+                    <td>Acumulación 3</td>
+                    <td>100</td>
+                    <td>300</td>
+                  </tr>
+                  <tr>
+                    <td scope="col">05/07/2019</td>
+                    <td>Acumulación 4</td>
+                    <td>100</td>
+                    <td>400</td>
+                  </tr>
+                  <tr>
+                    <td scope="col">05/07/2019</td>
+                    <td>Acumulación 5</td>
+                    <td>100</td>
+                    <td>500</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="hr"></div>
+              <div class="row">
+                <div class="col-md-8 offset-2 text-center mt-5 mb-5">
+                  <div class="text-center">
+                    <h3>Puntos por vencer el próximo mes</h3>
+                  </div>
+                  <table class="table">
+                    <tr>
+                      <td>Mes: <strong class="main">Enero</strong></td>
+                      <td>Puntos por vencer: <strong class="main">0 Puntos Parfois </strong></td>
+                    </tr>
+                  </table>
+                  <div class="alert alert-secondary"><i class="fa fa-calendar"> </i> <i class="fa fa-check-circle"></i> 
+                    La vigencia de los puntos es de 12 meses a partir del mes de acumulación.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" role="tabpanel" id="nav-datos">
+              <div class="row">
+                <div class="col-md-8 offset-md-2">
+                  <form>
+                    <div class="form-group row">
+                      <label class="text-right col-form-label col-4">Usuario:</label>
+                      <div class="col-8">
+                        <input class="form-control-plaintext" readonly value="usuario@puntituttipelle.mx">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label class="text-right col-form-label col-4">Contraseña*:</label>
+                      <div class="col-8">
+                        <input class="form-control" type="password" placeholder="Contraseña*">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label class="text-right col-form-label col-4">Confirmar contraseña*:</label>
+                      <div class="col-8">
+                        <input class="form-control" type="password" placeholder="Confirmar contraseña*">
+                      </div>
+                    </div><small class="text-center">* Información requrida</small>
+                    <div class="text-center">
+                      <button class="btn btn-large btn-primary" type="submit">Editar</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" role="tabpanel" id="historico">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col"># Pedido</th>
+                    <th scope="col">Fecha de Canje</th>
+                    <th scope="col">Estatus de Entrega</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Total Canjeado</th>
+                    <th scope="col">Detalle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="col">2583-1257</td>
+                    <td>2019/11/22	</td>
+                    <td>Pendiente por enviar	</td>
+                    <td>2</td>
+                    <td>3025.00 puntos</td>
+                    <td><a class="btn btn-primary" data-toggle="collapse" href="#pedido1">Ver</a></td>
+                  </tr>
+                  <tr class="collapse" id="pedido1">
+                    <td colspan="6">
+                      <table class="table tabledetail">
+                        <thead>
+                          <tr>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Número de teléfono</th>
+                            <th scope="col">Mensajería</th>
+                            <th scope="col">Número de rastreo</th>
+                            <th scope="col">Fecha estimada de entrega</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col">Subtotal en Puntos</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <div class="row">
+                                <div class="col"><img src="https://placehold.it/80x80"></div>
+                                <div class="col">Olla a presión, 6 L.	</div>
+                              </div>
+                            </td>
+                            <td>N/A</td>
+                            <td>Pendiente</td>
+                            <td>Pendiente</td>
+                            <td>11/12/2018	</td>
+                            <td>1</td>
+                            <td>1620.00 puntos</td>
+                          </tr>
+                        </tbody>
+                        <tfoot>
+                          <tr>
+                            <td class="text-right" colspan="6">Total:</td>
+                            <td>3025.00 puntos</td>
+                          </tr>
+                        </tfoot>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!--.section: .text-center: a(href="#"): img(src="img/original.png")-->
+  <footer>
+    <div class="container">
+      <div class="text-right"><img src="img/powered-by-blue.png"/></div>
+    </div>
+    <div class="footer-nav">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col"><a href="#" data-toggle="modal" data-target="#terminos">Términos y Condiciones</a>| <a href="#" data-toggle="modal" data-target="#preguntas">Preguntas Frecuentes</a>| <a href="#" data-toggle="modal" data-target="#aviso">Aviso de Privacidad</a>| <a href="#">info@puntituttipelle.mx</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="bluemx">
+      <div class="text-center"><a href="http://www.bluepureloyalty.com/" target="_blank"><img src="img/bluemx.png"/>
+          <div>blue.mx</div></a></div>
+    </div>
+  </footer>
+  
+  
+ <div class="modal fade" role="dialog" id="terminos">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Términos y Condiciones</h2>
+          <button class="close" type="button" data-dismiss="modal"><span>&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <p>Definiciones</p>
+          <p>Para el Programa Punti Tutti Pelle los términos establecidos a continuación tendrán los siguientes significados:</p>
+          <p><strong>a) El programa de lealtad Punti Tutti Pelle: </strong></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero iste cumque voluptatem minima, dignissimos! Labore tenetur architecto ab nam, dicta odio quia sunt. Numquam commodi odit magnam nesciunt aspernatur, sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates dignissimos odit sequi placeat asperiores incidunt maiores quia quam, ad facilis beatae veniam unde, in deleniti neque hic tenetur minima sapiente!.</p>
+          <p:strong>b) Los Punti Tutti Pelle: </p:strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nihil recusandae at molestiae nostrum ut odit culpa aspernatur iusto nemo neque assumenda porro non quo quasi iste, blanditiis, quaerat ex!</p>
+          <p:strong>c) Términos y Condiciones del programa Punti Tutti Pelle: </p:strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum officiis quas, cupiditate tenetur maxime repellat doloremque facere fugit consequatur optio aut error architecto dolore rerum unde quae neque, voluptate esse!</p>
+          <p:strong>d) Acuerdo de confidencialidad: </p:strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa in aliquam doloremque ab itaque laudantium voluptas dignissimos ad. Necessitatibus nesciunt dolores quidem, quod dolorum est ea doloribus suscipit maxime, fugit?</p>
+          <p:strong>e) Acumulación de Punti Tutti Pelle: </p:strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis officia nostrum nemo quo veritatis ea, cupiditate veniam a in sit, culpa itaque voluptatum accusantium numquam, quia non aperiam quos mollitia!</p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" role="dialog" id="preguntas">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Preguntas Frecuentes</h2>
+          <button class="close" type="button" data-dismiss="modal"><span>&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <p>1.	¿Qué es el programa Punti Tutti Pelle?</p>
+          <p>Punti Tutti Pelle Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci expedita asperiores tempora, aut dignissimos nam ad magni laudantium minus quo alias atque a neque accusantium eum, dolore, corrupti, architecto obcaecati!</p>
+          <p>2.	¿En dónde puedo darme de alta o inscribirme al programa Punti Tutti Pelle?</p>
+          <p>Inscribirte al programa no tiene ningún costo y podrás hacerlo directamente en el sitio www.puntituttipelle.mx o llamando al Centro de Atención Telefónica del programa Punti Tutti Pelle (55) 1234 5678.</p>
+          <p>3.	¿Quiénes no pueden participar en el programa Punti Tutti Pelle?</p>
+     
+          <p>4.	¿Cómo acumulo puntos en Punti Tutti Pelle? </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus fugiat vel molestiae eligendi reiciendis quisquam ipsa laborum blanditiis accusantium sed dicta exercitationem doloribus quasi eaque, quas recusandae eveniet illum aperiam?</p>
+          <p>5.	¿Cuánto acumulo por cada compra que realice?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dicta veritatis quae adipisci dolorem, laborum voluptates, amet dolore possimus ipsam qui provident. Aliquid rerum laborum nobis, commodi accusantium non culpa!</p>
+          <p>6. ¿Cuándo podré ver mis puntos reflejado por mis compras?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quod quidem similique adipisci quasi blanditiis accusantium nam provident non iste commodi asperiores placeat fuga dolorum eum voluptatibus sapiente quibusdam, sit.</p>
+          <p>7.	¿Puedo cambiar mis puntos Punti Tutti Pelle por dinero? </p>
+          <p>No, lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ad optio, distinctio nostrum inventore quas cum unde nihil dignissimos vel facilis culpa, amet, deleniti sunt animi! Fuga adipisci at rem.</p>
+          <p>8.	¿Qué vigencia tiene mis puntos Punti Tutti Pelle? </p>
+          <p>Los puntos Punti Tutti Pelle tienen una vigencia de 12 meses a partir del mes de acumulación.</p>
+          <p>9.	¿En dónde puedo canjear los puntos que acumule? </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod minus quasi perspiciatis est temporibus quisquam. Animi magni veniam, nulla, ipsum harum, maxime eius quod repellendus doloremque nesciunt doloribus nobis facilis!</p>
+          <p>10.	¿Cuándo no podré canjear mis puntos?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci inventore et, earum blanditiis nobis sint dolores, facilis sequi temporibus nam esse officia animi explicabo quae ipsum repellat dignissimos error vitae.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" role="dialog" id="aviso">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Aviso de Privacidad</h2>
+          <button class="close" type="button" data-dismiss="modal"><span>&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <p>Este Aviso de Privacidad aplica únicamente al sitio de Internet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla repellendus dolore, impedit, inventore fugiat hic repudiandae. Laudantium voluptas, vel. Numquam, amet, ullam. Voluptatibus molestias ipsum pariatur, veniam totam veritatis sequi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime aliquid illum perspiciatis laborum incidunt placeat ullam? Alias aliquam, aperiam repellat rem voluptates, error. Mollitia eius quis blanditiis porro dolorum quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas animi modi perspiciatis, sequi est tempore accusamus, culpa perferendis fuga, neque, eius minus magnam totam. Cum ipsum necessitatibus, vel ipsa expedita. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error minus, recusandae culpa doloremque quidem perspiciatis aut eos corporis ea, incidunt voluptate sed fugiat laborum cum, pariatur. Obcaecati ad, facere dolorem!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+      $('a.smooth-scroll[href*="#"]:not([href="#"])').click(function() {
+        scroller($(this.hash), $(this));
+      });
+    });
+    
+	$('.row .nav-item a').click(function () {
+        $('.navbar-toggler').click();
+    });
+	
+	$(document).scroll(function(){ 
+	
+		showhidenav();
+		
+		var queespoint = $("#que-es").offset().top - 180;
+		var howworkspoint = $("#como-funciona").offset().top - 180;
+		var registerpoint = $("#registro").offset().top - 180;
+		var catalogpoint = $("#catalogo").offset().top - 180;
+		var promotionspoint = $("#promociones").offset().top - 180;
+		var contactpoint = $("#contacto").offset().top - 180;
+		
+		//Current cursor.
+		var bottom_of_window = $(window).scrollTop();
+		
+		//Que és.
+		if (bottom_of_window < queespoint || bottom_of_window >= howworkspoint)
+		{
+			$('a.smooth-scroll[href*="#que-es"]').removeClass("active");
+		}
+		if (bottom_of_window >= queespoint && bottom_of_window < howworkspoint)
+		{
+			$('a.smooth-scroll[href*="#que-es"]').addClass("active");
+		}
+		
+		//Cómo funciona.
+		if (bottom_of_window < howworkspoint || bottom_of_window >= registerpoint)
+		{
+			$('a.smooth-scroll[href*="#como-funciona"]').removeClass("active");
+		}
+		if (bottom_of_window >= howworkspoint && bottom_of_window < registerpoint)
+		{
+			$('a.smooth-scroll[href*="#como-funciona"]').addClass("active");
+		}
+		
+		//Registro.
+		if (bottom_of_window < registerpoint || bottom_of_window >= catalogpoint)
+		{
+			$('a.smooth-scroll[href*="#registro"]').removeClass("active");
+		}
+		if (bottom_of_window >= registerpoint && bottom_of_window < catalogpoint)
+		{
+			$('a.smooth-scroll[href*="#registro"]').addClass("active");
+		}
+		
+		//Catálogo.
+		if (bottom_of_window < catalogpoint || bottom_of_window >= promotionspoint)
+		{
+			$('a.smooth-scroll[href*="#catalogo"]').removeClass("active");
+		}
+		if (bottom_of_window >= catalogpoint && bottom_of_window < promotionspoint)
+		{
+			$('a.smooth-scroll[href*="#catalogo"]').addClass("active");
+		}
+		
+		//Promociones.
+		if (bottom_of_window < promotionspoint || bottom_of_window >= contactpoint)
+		{
+			$('a.smooth-scroll[href*="#promociones"]').removeClass("active");
+		}
+		if (bottom_of_window >= promotionspoint && bottom_of_window < contactpoint)
+		{
+			$('a.smooth-scroll[href*="#promociones"]').addClass("active");
+		}
+		
+		//Contacto.
+		if (bottom_of_window < contactpoint)
+		{
+			$('a.smooth-scroll[href*="#contacto"]').removeClass("active");
+		}
+		if (bottom_of_window >= contactpoint)
+		{
+			$('a.smooth-scroll[href*="#contacto"]').addClass("active");
+		}
+		
+	});
+	
+    function scroller(hash, element)
+	{
+        var target = hash;
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length)
+		{
+          $('html, body').animate({
+            scrollTop: target.offset().top-70
+          }, 1000);
+		  <!-- $('a.smooth-scroll[href*="#"]').each(function(){ -->
+			<!-- $(this).removeClass("active"); -->
+		  <!-- }); -->
+		  <!-- $(element).addClass("active"); -->
+          return false;
+        }
+    }
+    
+    function showhidenav()
+	{
+      if($(window).scrollTop() > 250)
+	  {
+        $('nav.navbar').addClass('visible');
+      }
+	  else
+	  {
+        $('nav.navbar').removeClass('visible');
+      }
+    }
+    
+    
+  </script>
+</body>

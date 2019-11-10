@@ -1,0 +1,71 @@
+<mjml>
+
+  <mj-head>
+    <mj-breakpoint width="0" />
+    <mj-attributes>
+      <mj-text padding="14px" font-size="13px" color="#000" align="center"></mj-text>
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body width="800px">
+
+    <mj-include path="./_header.mjml" />
+
+
+    
+
+    
+    <mj-section>
+    	<mj-column>
+      	<mj-image padding="0" src="comunicado.jpg" href="http://www.clublumen.com.mx/"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+    <!--
+    <mj-section padding="0">
+    	<mj-column>
+      	<mj-text align="left" color="#888" font-size="16px">TE RECOMENDAMOS:</mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section>
+    	<mj-column>
+      	<mj-image src="producto1.jpg" href="https://lumen.com.mx/272248LAPTOP-ASUS-GL503VD"></mj-image>
+      </mj-column>
+      <mj-column>
+      	<mj-image src="producto2.jpg" href="http://bit.ly/2J9afhZ"></mj-image>
+      </mj-column>
+      <mj-column>
+      	<mj-image src="producto3.jpg" href="http://bit.ly/2Xd099F"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+    
+   	
+    <mj-section>
+    	<mj-column>
+      	<mj-image src="producto4.jpg" href="http://bit.ly/2xjC8hK"></mj-image>
+      </mj-column>
+      <mj-column>
+      	<mj-image src="producto5.jpg" href="http://bit.ly/2ZPXtM7"></mj-image>
+      </mj-column>
+      <mj-column>
+      	<mj-image src="producto6.jpg" href="http://bit.ly/2ZTjuKa"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+    
+    -->
+    
+    
+		
+
+
+    
+   
+
+    <mj-include path="./_footer.mjml" />
+
+  </mj-body>
+
+</mjml>
