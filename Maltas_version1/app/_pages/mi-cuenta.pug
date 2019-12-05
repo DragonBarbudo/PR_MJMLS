@@ -1,0 +1,76 @@
+| <!DOCTYPE html>
+include _mod/_app
+html(lang="es")
+  +head
+  body
+    //Login, Logout
+    +nav(false, true)
+
+    // Contenido
+    #mi-cuenta
+      .container
+        .row.justify-content-center.mt-5.mb-1: h2 Mi cuenta
+        .row.justify-content-center.mt-1.mb-3: img(src="app/img/ico_maltas.png").img-fluid.mx-auto.icosketch
+        ul.nav.nav-tabs.justify-content-center
+          li.nav-item: a(href="#datos" data-toggle="tab").nav-link.active Mi perfil
+          li.nav-item: a(href="#estado" data-toggle="tab").nav-link Mis Maltas
+          li.nav-item: a(href="#acceso" data-toggle="tab").nav-link Clave de acceso
+          li.nav-item: a(href="#notificaciones" data-toggle="tab").nav-link Notificaciones
+          li.nav-item: a(href="#referido" data-toggle="tab").nav-link Código referido
+          li.nav-item: a(href="#gana" data-toggle="tab").nav-link ¡Gane Maltas!
+        
+        .tab-content
+          .tab-pane.active(role="tabpanel")#datos
+            include _mod/_registro
+            +registro(true, 'Editar mis datos')
+          .tab-pane(role="tabpanel")#estado
+            include _mod/_estadocta
+          .tab-pane(role="tabpanel")#acceso
+            .row.justify-content-center.my-5.text-center
+              .col-6
+                +input('Cédula', 'text', 'xxxxx', true)
+                +input('Clave de acceso', 'password')
+                +input('Confirmar clave', 'password')
+                button(type="submit").btn.btn-primary.my-5 Editar clave
+          .tab-pane(role="tabpanel")#notificaciones
+            .row.justify-content-center.my-5.text-center
+              .col
+                h3 Seleccione las notificaciones que desea recibir
+            .row.justify-content-center
+              .col-md-4
+                +checkbox('Maltas')
+                +checkbox('Descuentos')
+              .col-md-4
+                +checkbox('Eventos')
+                +checkbox('Kits')
+            .text-center: button(type="submit").btn.btn-primary.my-5 Guardar
+          .tab-pane(role="tabpanel")#referido
+            .row.justify-content-center.my-5.text-center
+              .col-md-6
+                h4 Enviar correo
+                +input('Correo electrónico', 'email')
+                .text-right: button(type="submit").btn.btn-primary.my-2 Envíar código de referido
+              //.col-md-6
+                h4 Enviar Whatsapp
+                +input('Whatsapp', 'email')
+                .text-right: button(type="submit").btn.btn-primary.my-2 Envíar Whatsapp
+            .row.justify-content-center.my-5.text-center
+              .col-md-6
+                h4 Compartir en redes sociales
+                .row.justify-content-center.text-center
+                  .col-2: a(href="#").btn.btn-primary: i.fab.fa-facebook-f
+                  .col-2: a(href="#").btn.btn-primary: i.fab.fa-twitter
+                  .col-2: a(href="#").btn.btn-primary: i.fab.fa-instagram
+          .tab-pane(role="tabpanel")#gana
+            .row.justify-content-center.my-5.text-center
+              h3 ¡Gane Maltas!
+            .row.justify-content-center.my-5.text-center
+              h4 Ingrese sus códigos y participe
+            .row.justify-content-center.my-5.text-center
+              .col-6
+                +input('Código', 'text')
+                .text-center: button.btn.btn-primary.my-5 Participar
+
+
+  +footer
+  +scripts

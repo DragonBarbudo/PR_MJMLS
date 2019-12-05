@@ -1,0 +1,49 @@
+.row.justify-content-center.my-5.text-center
+  .col
+    h3 Julio de 2019 a Diciembre de 2019
+    ul.list-group
+    li.list-group-item #{nombre} acumuladas: #[strong 10,500.00]
+    li.list-group-item #{nombre} canjeadas: #[strong 18,990.00]
+.row.justify-content-center.my-5.text-center
+  .col
+    h3 Detalle del periodo
+    .input-group.justify-content-center
+      .input-group-prepend: label.input-group-text Periodo
+      select
+        option Agosto 2019
+        option Septiembre 2019
+        option Octubre 2019
+        option Noviembre 2019
+    table.table.my-4
+      thead: tr
+        th(scope="col") Fecha
+        th(scope="col") Concepto
+        th(scope="col") Maltas
+        th(scope="col") Saldo
+      tbody
+        - var acumulacion = 0
+        each i in [1,2,3,4,5]
+          tr 
+            th(scope="col") #{i*(Math.floor(Math.random()*2)+1)+i}/07/2019
+            td Acumulación #{i}
+            - var acum = Math.floor(Math.random()*100)+10
+            - acumulacion = acumulacion + acum
+            td #{acum} Maltas
+            td #{acumulacion} Maltas
+      tfoot:tr
+        td
+        td
+        td Total
+        th #{acumulacion} Maltas
+.row.justify-content.center: .col.text-center: .alert.alert-light Recuerde que 10 Maltas equivalen a $1.000 pesos que podrá redimir en nuestros puntos de venta BBC.
+.row.justify-content-center.my-5.text-center
+  .col
+    h3 Maltas por vencer el próximo mes
+.row.justify-content-center
+  .col-8
+    .alert.alert-primary.text-center
+      h4.mr-3 Mes: #[strong Enero]
+      div PunMaltastos por vencer: #[strong #{acumulacion-38} #{nombre}]
+  .col
+    .alert.alert-dark
+      span La vigencia de las Maltas es de 12 meses a partir del mes de acumulación.

@@ -1,0 +1,48 @@
+section#planes: .container
+  h2.my-5.text-center Mis Planes
+  .row
+    .col-lg-6.col.plan.active
+      .tag.fas.fa-check
+      .text-center: img(src="app/img/ico_maltas.png").img-fluid.mx-auto.icosketch
+      .text-center.my-5: h4 Beneficios por ser parte de la comunidad, promociones, #[strong Maltas] por referidos y mucho más.
+      .row.justify-content-center
+        .col-10: table.table
+          tr
+            td.align-middle.text-center: img(src="app/img/ico_maltas.png").mico
+            td.align-middle: h5 Acumule y redima Maltas en sus compras en BBC.
+          tr
+            td.align-middle.text-center: img(src="app/img/mico_cal.png").mico
+            td.align-middle: h5 Acceso a días promocionales y promociones especiales.
+      hr
+    .col-lg-6.col.plan
+      .tag.fas.fa-lock
+      .text-center: img(src="app/img/sociedadbbc.png").img-fluid.mx-auto.icosketch
+      .text-center.my-5: h4 Faltan pocos días para acceder a este plan y todos sus beneficios.
+      .row.justify-content-center
+        .col-10: table.table
+          tr
+            td.align-middle.text-center: img(src="app/img/mico_gift.png").mico
+            td.align-middle: h5 1 Kit de bienvenida.
+          tr
+            td.align-middle.text-center: img(src="app/img/mico_beer.png").mico
+            td.align-middle: h5 Cervezas BBC acompañadas de merchandising, recetas o elementos para mixología.
+          tr
+            td.align-middle.text-center: img(src="app/img/mico_price.png").mico
+            td.align-middle: h5 1 invitación mensual a eventos exclusivos de la SOCIEDAD BBC (catas, mixología, visitas a la fábrica, entre otros).
+          tr
+            td.align-middle.text-center: img(src="app/img/mico_tag.png").mico
+            td.align-middle: h5 10% de descuento en todos sus consumos en puntos BBC a nivel nacional durante su membresía.
+          tr
+            td.align-middle.text-center: img(src="app/img/mico_cal.png").mico
+            td.align-middle: h5 Días promocionales y promociones exclusias para miembros de la SOCIEDAD BBC.
+          tr
+            td.align-middle.text-center: img(src="app/img/ico_maltas.png").mico
+            td.align-middle: h5 Acumulación y redención de Maltas.  
+      .text-center.my-5: a(href="#" data-target="#modalcomprar" data-toggle="modal").btn.btn-primary Comprar plan
+      hr
+
+      .modal.fade#modalcomprar
+        .modal-dialog
+          .modal-content
+            .text-center.my-5: img(src="app/img/sociedadbbc.png").img-fluid.mx-auto.icosketch
+            h2.text-center PRÓXIMAMENTE

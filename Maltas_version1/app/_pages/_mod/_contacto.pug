@@ -1,0 +1,15 @@
+section#contacto
+  .container
+    .row.justify-content-center.mt-5.mb-1: h2 Contacto
+    .row.justify-content-center.mt-1.mb-3: img(src="app/img/ico_contac.png").img-fluid.mx-auto.icosketch
+    .row.justify-content-center.align-items-center.my-5
+      .col-md-6
+        p #[strong #{nombre}] está comprometido a servirte de una manera eficiente, por lo que te pedimos llenes la forma de contacto y envíanos tu duda, sugerencia o queja.
+      .col
+        form(action="#")
+          input.form-control(placeholder="Nombre").mb-1
+          input.form-control(placeholder="Correo electrónico" type="email").mb-1
+          input.form-control(placeholder="Teléfono").mb-1
+          textarea.form-control(placeholder="Mensaje").mb-1
+          .text-right
+            button(type="submit").btn.btn-primary Enviar

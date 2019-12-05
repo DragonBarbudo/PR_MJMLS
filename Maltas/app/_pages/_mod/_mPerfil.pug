@@ -1,0 +1,25 @@
+section#mi-perfil: .container
+  h2.my-5.text-center Mi Perfil
+  .text-center: img(src="app/img/ico_reg.png").img-fluid.mx-auto.icosketch
+  .text-center.my-5: a(href="#" data-target="#modalinvitar" data-toggle="modal").btn.btn-primary 
+    i.fas.fa-user.mr-3
+    span Invitar Amigos
+  .text-center.my-2
+    p Recuerde que #[strong 10 Maltas] equivalen a #[strong $10] pesos que podrá redimir en nuestros puntos de venta #[strong BBC].
+    p: small Sus Maltas se verán reflejadas en la aplicación a más tardar 24 horas después de cada consumo.
+  .modal.fade#modalinvitar
+    .modal-dialog
+      .modal-content
+        h2.text-center Invitar amigos
+        .modal-body
+          p Reciba #[strong 25 Maltas] por cada amigo que invite a la comunidad, estos amigos recibirán #[strong 100 Maltas] por unirse. Comparte la alegría de las #[strong Maltas BBC].
+          hr
+          div
+            .text-center: h2.fas.fa-envelope
+            +input('Correo electrónico', 'email')
+            .text-right: button(type="submit").btn.btn-primary.my-2 Invitar por correo
+          hr
+          div
+            .text-center: h2.fab.fa-whatsapp
+            +input('Whatsapp', 'email')
+            .text-right: button(type="submit").btn.btn-primary.my-2 Invitar por Whatsapp

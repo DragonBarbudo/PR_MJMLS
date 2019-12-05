@@ -1,0 +1,24 @@
+| <!DOCTYPE html>
+include _mod/_app
+html(lang="es")
+	+head
+	body
+		.section
+			.container
+				.row.justify-content-center.my-5
+					.col-lg-3.col-md-4.col-6: img(src="app/img/maltas.png").img-fluid
+				.row.justify-content-center.my-5.text-center: h2 INICIAR SESIÓN
+				.row.justify-content-center
+					form(action="cuenta.html").mb-2
+						input.form-control(placeholder="Usuario").mb-3
+						input.form-control(placeholder="Clave de acceso" type="password").mb-3
+						.text-center: button(type="submit").btn.btn-primary Iniciar sesión
+						.text-center.mt-4: a(href="#") Olvidé mi clave.
+				hr
+				.row.justify-content-center.text-center.mt-4.mb-5
+					div
+						p ¿No tiene cuenta?.
+						.text-center: a(href="registro.html").btn.btn-primary ¡Regístrese!
+				hr   
+	+footer
+	+scripts

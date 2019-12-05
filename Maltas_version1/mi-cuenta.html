@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap"/>
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link rel="stylesheet" href="app/app.css"/>
+    <title>Maltas</title>
+  </head>
+  <body>
+    <!--Login, Logout-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"><a class="navbar-brand" href="#"><img src="app/img/maltas.png"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav"><span class="brg"></span><span class="brg"></span><span class="brg"></span></button>
+      <div class="collapse navbar-collapse" id="mainnav">
+        <ul class="navbar nav">
+          <li class="nav-item"><a class="nav-link" href="index.html#que-es">Qué es</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#registro">Registro</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#sucursales">Sucursales</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#promociones">Promociones</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Cerrar sesión</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Contenido-->
+    <div id="mi-cuenta">
+      <div class="container">
+        <div class="row justify-content-center mt-5 mb-1">
+          <h2>Mi cuenta</h2>
+        </div>
+        <div class="row justify-content-center mt-1 mb-3"><img class="img-fluid mx-auto icosketch" src="app/img/ico_maltas.png"/></div>
+        <ul class="nav nav-tabs justify-content-center">
+          <li class="nav-item"><a class="nav-link active" href="#datos" data-toggle="tab">Mi perfil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#estado" data-toggle="tab">Mis Maltas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#acceso" data-toggle="tab">Clave de acceso</a></li>
+          <li class="nav-item"><a class="nav-link" href="#notificaciones" data-toggle="tab">Notificaciones</a></li>
+          <li class="nav-item"><a class="nav-link" href="#referido" data-toggle="tab">Código referido</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gana" data-toggle="tab">¡Gane Maltas!</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" role="tabpanel" id="datos">
+                        <div class="row justify-content-center my-5 text-center">
+                          <div class="col">
+                                        <div class="form-group row">
+                                          <label class="col-form-label col-md-5 col-12 text-md-right">Nombre</label>
+                                          <input class="form-control col-md-7 col-12" placeholder="Nombre" type="text" value=""/>
+                                        </div>
+                                        <div class="form-group row">
+                                          <label class="col-form-label col-md-5 col-12 text-md-right">Apellido paterno</label>
+                                          <input class="form-control col-md-7 col-12" placeholder="Apellido paterno" type="text" value=""/>
+                                        </div>
+                                        <div class="form-group row">
+                                          <label class="col-form-label col-md-5 col-12 text-md-right">Apellido materno</label>
+                                          <input class="form-control col-md-7 col-12" placeholder="Apellido materno" type="text" value=""/>
+                                        </div>
+                                        <div class="form-group row">
+                                          <label class="col-form-label col-md-5 col-12 text-md-right">Correo electrónico</label>
+                                          <input class="form-control col-md-7 col-12" placeholder="Correo electrónico" type="email" value=""/>
+                                        </div>
+                                        <div class="form-group row">
+                                          <label class="col-form-label col-md-5 col-12 text-md-right">Fecha de nacimiento</label>
+                                          <input class="form-control col-md-7 col-12" placeholder="Fecha de nacimiento" type="date" value=""/>
+                                        </div>
+                                        <div class="form-group row">
+                                          <label class="col-form-label col-md-5 col-12 text-md-right">Número telefónico</label>
+                                          <input class="form-control col-md-7 col-12" placeholder="Número telefónico" type="text" value=""/>
+                                        </div>
+                            <button class="btn btn-primary my-5" type="submit">Editar mis datos</button>
+                          </div>
+                        </div>
+          </div>
+          <div class="tab-pane" role="tabpanel" id="estado">
+            <div class="row justify-content-center my-5 text-center">
+              <div class="col">
+                <h3>Julio de 2019 a Diciembre de 2019</h3>
+                <ul class="list-group"></ul>
+                <li class="list-group-item">Maltas acumuladas: <strong>10,500.00</strong></li>
+                <li class="list-group-item">Maltas canjeadas: <strong>18,990.00</strong></li>
+              </div>
+            </div>
+            <div class="row justify-content-center my-5 text-center">
+              <div class="col">
+                <h3>Detalle del periodo</h3>
+                <div class="input-group justify-content-center">
+                  <div class="input-group-prepend">
+                    <label class="input-group-text">Periodo</label>
+                  </div>
+                  <select>
+                    <option>Agosto 2019</option>
+                    <option>Septiembre 2019</option>
+                    <option>Octubre 2019</option>
+                    <option>Noviembre 2019</option>
+                  </select>
+                </div>
+                <table class="table my-4">
+                  <thead>
+                    <tr>
+                      <th scope="col">Fecha</th>
+                      <th scope="col">Concepto</th>
+                      <th scope="col">Maltas</th>
+                      <th scope="col">Saldo</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr> 
+                      <th scope="col">2/07/2019</th>
+                      <td>Acumulación 1</td>
+                      <td>93 Maltas</td>
+                      <td>93 Maltas</td>
+                    </tr>
+                    <tr> 
+                      <th scope="col">6/07/2019</th>
+                      <td>Acumulación 2</td>
+                      <td>51 Maltas</td>
+                      <td>144 Maltas</td>
+                    </tr>
+                    <tr> 
+                      <th scope="col">6/07/2019</th>
+                      <td>Acumulación 3</td>
+                      <td>10 Maltas</td>
+                      <td>154 Maltas</td>
+                    </tr>
+                    <tr> 
+                      <th scope="col">8/07/2019</th>
+                      <td>Acumulación 4</td>
+                      <td>48 Maltas</td>
+                      <td>202 Maltas</td>
+                    </tr>
+                    <tr> 
+                      <th scope="col">10/07/2019</th>
+                      <td>Acumulación 5</td>
+                      <td>73 Maltas</td>
+                      <td>275 Maltas</td>
+                    </tr>
+                  </tbody>
+                  <tfoot:tr>
+                    <td></td>
+                    <td></td>
+                    <td>Total</td>
+                    <th>275 Maltas</th>
+                  </tfoot:tr>
+                </table>
+              </div>
+            </div>
+            <div class="row justify-content center">
+              <div class="col text-center">
+                <div class="alert alert-light">Recuerde que 10 Maltas equivalen a $1.000 pesos que podrá redimir en nuestros puntos de venta BBC.</div>
+              </div>
+            </div>
+            <div class="row justify-content-center my-5 text-center">
+              <div class="col">
+                <h3>Maltas por vencer el próximo mes</h3>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-8">
+                <div class="alert alert-primary text-center">
+                  <h4 class="mr-3">Mes: <strong>Enero</strong></h4>
+                  <div>PunMaltastos por vencer: <strong>237 Maltas</strong></div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="alert alert-dark"><span>La vigencia de las Maltas es de 12 meses a partir del mes de acumulación.</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" role="tabpanel" id="acceso">
+            <div class="row justify-content-center my-5 text-center">
+              <div class="col-6">
+                <div class="form-group row">
+                  <label class="col-form-label col-md-5 col-12 text-md-right">Cédula</label>
+                  <input class="form-control col-md-7 col-12" placeholder="Cédula" type="text" value="xxxxx" disabled="disabled"/>
+                </div>
+                <div class="form-group row">
+                  <label class="col-form-label col-md-5 col-12 text-md-right">Clave de acceso</label>
+                  <input class="form-control col-md-7 col-12" placeholder="Clave de acceso" type="password" value=""/>
+                </div>
+                <div class="form-group row">
+                  <label class="col-form-label col-md-5 col-12 text-md-right">Confirmar clave</label>
+                  <input class="form-control col-md-7 col-12" placeholder="Confirmar clave" type="password" value=""/>
+                </div>
+                <button class="btn btn-primary my-5" type="submit">Editar clave</button>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" role="tabpanel" id="notificaciones">
+            <div class="row justify-content-center my-5 text-center">
+              <div class="col">
+                <h3>Seleccione las notificaciones que desea recibir</h3>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <label class="form-group row">
+                  <div class="col-2 col-md-5 text-right">
+                    <input type="checkbox"/>
+                  </div>
+                  <div class="col-8 col-md-7 text-left"><span>Maltas</span></div>
+                </label>
+                <label class="form-group row">
+                  <div class="col-2 col-md-5 text-right">
+                    <input type="checkbox"/>
+                  </div>
+                  <div class="col-8 col-md-7 text-left"><span>Descuentos</span></div>
+                </label>
+              </div>
+              <div class="col-md-4">
+                <label class="form-group row">
+                  <div class="col-2 col-md-5 text-right">
+                    <input type="checkbox"/>
+                  </div>
+                  <div class="col-8 col-md-7 text-left"><span>Eventos</span></div>
+                </label>
+                <label class="form-group row">
+                  <div class="col-2 col-md-5 text-right">
+                    <input type="checkbox"/>
+                  </div>
+                  <div class="col-8 col-md-7 text-left"><span>Kits</span></div>
+                </label>
+              </div>
+            </div>
+            <div class="text-center">
+              <button class="btn btn-primary my-5" type="submit">Guardar</button>
+            </div>
+          </div>
+          <div class="tab-pane" role="tabpanel" id="referido">
+            <div class="row justify-content-center my-5 text-center">
+              <div class="col-md-6">
+                <h4>Enviar correo</h4>
+                <div class="form-group row">
+                  <label class="col-form-label col-md-5 col-12 text-md-right">Correo electrónico</label>
+                  <input class="form-control col-md-7 col-12" placeholder="Correo electrónico" type="email" value=""/>
+                </div>
+                <div class="text-right">
+                  <button class="btn btn-primary my-2" type="submit">Envíar código de referido</button>
+                </div>
+              </div>
+              <!--.col-md-6
+              h4 Enviar Whatsapp
+              +input('Whatsapp', 'email')
+              .text-right: button(type="submit").btn.btn-primary.my-2 Envíar Whatsapp
+              -->
+            </div>
+            <div class="row justify-content-center my-5 text-center">
+              <div class="col-md-6">
+                <h4>Compartir en redes sociales</h4>
+                <div class="row justify-content-center text-center">
+                  <div class="col-2"><a class="btn btn-primary" href="#"><i class="fab fa-facebook-f"></i></a></div>
+                  <div class="col-2"><a class="btn btn-primary" href="#"><i class="fab fa-twitter"></i></a></div>
+                  <div class="col-2"><a class="btn btn-primary" href="#"><i class="fab fa-instagram"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" role="tabpanel" id="gana">
+            <div class="row justify-content-center my-5 text-center">
+              <h3>¡Gane Maltas!</h3>
+            </div>
+            <div class="row justify-content-center my-5 text-center">
+              <h4>Ingrese sus códigos y participe</h4>
+            </div>
+            <div class="row justify-content-center my-5 text-center">
+              <div class="col-6">
+                <div class="form-group row">
+                  <label class="col-form-label col-md-5 col-12 text-md-right">Código</label>
+                  <input class="form-control col-md-7 col-12" placeholder="Código" type="text" value=""/>
+                </div>
+                <div class="text-center">
+                  <button class="btn btn-primary my-5">Participar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <div class="modal fade" id="modalterminos">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <h2 class="text-center">Terminos y condiciones</h2>
+        <div class="modal-body">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa excepturi, veniam at fugit consequatur quo perspiciatis quis quibusdam dolorem sit quisquam dolorum fugiat accusantium alias provident optio, beatae repellendus nam.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis accusantium, illum quibusdam dolor ducimus dolores aliquid nesciunt numquam atque placeat incidunt architecto qui velit consequatur quos? Doloribus explicabo quod maiores?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt laborum harum velit nisi libero. Consectetur, illum. Impedit, mollitia quaerat iure delectus atque iste itaque esse? Tenetur iusto culpa voluptates.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modaaviso">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <h2 class="text-center">Aviso de privacidad</h2>
+        <div class="modal-body">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa excepturi, veniam at fugit consequatur quo perspiciatis quis quibusdam dolorem sit quisquam dolorum fugiat accusantium alias provident optio, beatae repellendus nam.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis accusantium, illum quibusdam dolor ducimus dolores aliquid nesciunt numquam atque placeat incidunt architecto qui velit consequatur quos? Doloribus explicabo quod maiores?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt laborum harum velit nisi libero. Consectetur, illum. Impedit, mollitia quaerat iure delectus atque iste itaque esse? Tenetur iusto culpa voluptates.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modalpolitica">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <h2 class="text-center">Política de privacidad</h2>
+        <div class="modal-body">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa excepturi, veniam at fugit consequatur quo perspiciatis quis quibusdam dolorem sit quisquam dolorum fugiat accusantium alias provident optio, beatae repellendus nam.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis accusantium, illum quibusdam dolor ducimus dolores aliquid nesciunt numquam atque placeat incidunt architecto qui velit consequatur quos? Doloribus explicabo quod maiores?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt laborum harum velit nisi libero. Consectetur, illum. Impedit, mollitia quaerat iure delectus atque iste itaque esse? Tenetur iusto culpa voluptates.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modalglobal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <h2 class="text-center">Política de privacidad de global</h2>
+        <div class="modal-body">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa excepturi, veniam at fugit consequatur quo perspiciatis quis quibusdam dolorem sit quisquam dolorum fugiat accusantium alias provident optio, beatae repellendus nam.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis accusantium, illum quibusdam dolor ducimus dolores aliquid nesciunt numquam atque placeat incidunt architecto qui velit consequatur quos? Doloribus explicabo quod maiores?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt laborum harum velit nisi libero. Consectetur, illum. Impedit, mollitia quaerat iure delectus atque iste itaque esse? Tenetur iusto culpa voluptates.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row justify-content-end"><a href="http://www.bluepureloyalty.com/" target="_blank"><img src="app/img/powered-by-blue.png" alt="Blue"/></a></div>
+    </div>
+    <div class="navbar bg-dark justify-content-center p-0">
+      <ul class="navbar nav p-0">
+        <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#modalterminos">Términos y condiciones</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#modaaviso">Aviso de privacidad</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#modalpolitica">Política de privacidad</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#modalglobal">Política de privacidad global</a></li>
+        <li class="nav-item"><a class="nav-link" href="mailto:info@maltas.com">info@maltas.com</a></li>
+      </ul>
+    </div>
+    <div class="pleca text-center p-2"><a href="http://www.bluepureloyalty.com/" target="_blank"><img src="app/img/bluemx.png" alt="Blue"/></a></div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="app/app.js"></script>
+  <script src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
+  <script src="https://unpkg.com/smoothscroll-anchor-polyfill"></script>
+</html>

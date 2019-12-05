@@ -1,0 +1,21 @@
+| <!DOCTYPE html>
+include _mod/_app
+html(lang="es")
+	+head
+	body
+		.section
+			.container
+				.row.justify-content-center.my-5
+					.col-lg-3.col-md-4.col-6: img(src="app/img/maltas.png").img-fluid
+				.row.justify-content-center.my-5.text-center
+					h2 ¡TENEMOS UN NUEVO TESORO CERVECERO!
+					h3.mt-4 Maltas BBC es exclusiva para mayores de 18 años. Por favor confírmenos su fecha de nacimiento.
+					form(action="inicio.html").text-center.my-5.col-6
+						input.form-control(placeholder="Fecha de nacimiento" type="date")
+						label.form-group.my-5
+							input(type="checkbox").mr-2
+							span Acepto Términos y Condiciones y las Política de tratamiento de Datos Personales de Maltas.
+						.text-center: button(type="submit").btn.btn-primary SOY MAYOR DE EDAD
+				.row.justify-content-center
+	+footer
+	+scripts

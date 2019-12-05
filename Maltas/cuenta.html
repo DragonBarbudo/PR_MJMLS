@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap"/>
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link rel="stylesheet" href="app/app.css"/>
+    <title>Maltas</title>
+  </head>
+  <body>
+    <!-- Login, logout-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"><a class="navbar-brand" href="#"><img src="app/img/maltas.png"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav"><span class="brg"></span><span class="brg"></span><span class="brg"></span></button>
+      <div class="collapse navbar-collapse" id="mainnav">
+        <ul class="navbar nav">
+          <li class="nav-item"><a class="nav-link" href="cuenta.html#mi-perfil">Mi Perfil</a></li>
+          <li class="nav-item"><a class="nav-link" href="cuenta.html#mis-maltas">Mis Maltas</a></li>
+          <li class="nav-item"><a class="nav-link" href="cuenta.html#codigo-promocional">Código Promocional</a></li>
+          <li class="nav-item"><a class="nav-link" href="cuenta.html#referidos">Referidos</a></li>
+          <li class="nav-item"><a class="nav-link" href="cuenta.html#planes">Planes</a></li>
+          <li class="nav-item"><a class="nav-link" href="cuenta.html#ayuda">Ayuda</a></li>
+          <li class="nav-item"><a class="nav-link" href="inicio.html">Cerrar sesión</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="mi-perfil">
+      <div class="container">
+        <h2 class="my-5 text-center">Mi Perfil</h2>
+        <div class="text-center"><img class="img-fluid mx-auto icosketch" src="app/img/ico_reg.png"/></div>
+        <div class="text-center my-5"><a class="btn btn-primary" href="#" data-target="#modalinvitar" data-toggle="modal"> <i class="fas fa-user mr-3"></i><span>Invitar Amigos</span></a></div>
+        <div class="text-center my-2">
+          <p>Recuerde que <strong>10 Maltas</strong> equivalen a <strong>$10</strong> pesos que podrá redimir en nuestros puntos de venta <strong>BBC</strong>.</p>
+          <p><small>Sus Maltas se verán reflejadas en la aplicación a más tardar 24 horas después de cada consumo.</small></p>
+        </div>
+        <div class="modal fade" id="modalinvitar">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <h2 class="text-center">Invitar amigos</h2>
+              <div class="modal-body">
+                <p>Reciba <strong>25 Maltas</strong> por cada amigo que invite a la comunidad, estos amigos recibirán <strong>100 Maltas</strong> por unirse. Comparte la alegría de las <strong>Maltas BBC</strong>.</p>
+                <hr/>
+                <div>
+                  <div class="text-center">
+                    <h2 class="fas fa-envelope"></h2>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-form-label col-md-5 col-12 text-md-right">Correo electrónico</label>
+                    <input class="form-control col-md-7 col-12" placeholder="Correo electrónico" type="email" value=""/>
+                  </div>
+                  <div class="text-right">
+                    <button class="btn btn-primary my-2" type="submit">Invitar por correo</button>
+                  </div>
+                </div>
+                <hr/>
+                <div>
+                  <div class="text-center">
+                    <h2 class="fab fa-whatsapp"></h2>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-form-label col-md-5 col-12 text-md-right">Whatsapp</label>
+                    <input class="form-control col-md-7 col-12" placeholder="Whatsapp" type="email" value=""/>
+                  </div>
+                  <div class="text-right">
+                    <button class="btn btn-primary my-2" type="submit">Invitar por Whatsapp</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="mis-maltas">
+      <div class="container">
+        <h2 class="my-5 text-center">Mis Maltas</h2>
+        <div class="text-center"><img class="img-fluid mx-auto icosketch" src="app/img/ico_maltas.png"/></div>
+        <div class="text-center mt-5">
+          <h3>Sus transacciones en Maltas son:</h3>
+        </div>
+        <div class="row justify-content-center my-4">
+          <div class="col-4">
+            <h3>Total</h3>
+          </div>
+          <div class="col-2 text-right">
+            <h3>0</h3>
+          </div>
+        </div>
+        <hr/>
+        <div class="text-center my-5">
+          <p>Redima sus <strong>Maltas</strong> en nuestros puntos de venta <strong>BBC</strong> por productos o merchandising. Pronto podrá redimir también desde nuestra App.  </p>
+          <p>Recuerde que <strong>10 Maltas</strong> equivalen a <strong>$10</strong> pesos que podrá redimir en nuestros puntos de venta <strong>BBC</strong>.</p>
+          <p><small>Sus Maltas se verán reflejadas en la aplicación a más tardar 24 horas después de cada consumo.</small></p>
+        </div>
+      </div>
+    </section>
+    <section id="codigo-promocional">
+      <div class="container">
+        <h2 class="my-5 text-center">Código promocional</h2>
+        <div class="text-center"><img class="img-fluid mx-auto icosketch" src="app/img/ico_promos.png"/></div>
+        <div class="text-center mt-5">
+          <h3>Ingrese su código promocional</h3>
+        </div>
+        <div class="row justify-content-center">
+          <form class="mb-2" action="#">
+            <input class="form-control mb-3" placeholder="Código promocional"/>
+            <div class="text-center">
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section id="referidos">
+      <div class="container">
+        <h2 class="my-5 text-center">Referidos</h2>
+        <div class="text-center"><img class="img-fluid mx-auto icosketch" src="app/img/ico_contac.png"/></div>
+        <div class="text-center my-5">
+          <h4>Aún no tiene invitaciones confirmadas</h4>
+        </div>
+        <div class="text-center my-5"><a class="btn btn-primary" href="#" data-target="#modalinvitar" data-toggle="modal"> <i class="fas fa-user mr-3"></i><span>Invitar Amigos</span></a></div>
+        <div class="text-center my-2">
+          <p>Recuerde que <strong>10 Maltas</strong> equivalen a <strong>$10</strong> pesos que podrá redimir en nuestros puntos de venta <strong>BBC</strong>.</p>
+          <p><small>Sus Maltas se verán reflejadas en la aplicación a más tardar 24 horas después de cada consumo.</small></p>
+        </div>
+      </div>
+    </section>
+    <section id="planes">
+      <div class="container">
+        <h2 class="my-5 text-center">Mis Planes</h2>
+        <div class="row">
+          <div class="col-lg-6 col plan active">
+            <div class="tag fas fa-check"></div>
+            <div class="text-center"><img class="img-fluid mx-auto icosketch" src="app/img/ico_maltas.png"/></div>
+            <div class="text-center my-5">
+              <h4>Beneficios por ser parte de la comunidad, promociones, <strong>Maltas</strong> por referidos y mucho más.</h4>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-10">
+                <table class="table">
+                  <tr>
+                    <td class="align-middle text-center"><img class="mico" src="app/img/ico_maltas.png"/></td>
+                    <td class="align-middle">
+                      <h5>Acumule y redima Maltas en sus compras en BBC.</h5>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle text-center"><img class="mico" src="app/img/mico_cal.png"/></td>
+                    <td class="align-middle">
+                      <h5>Acceso a días promocionales y promociones especiales.</h5>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <hr/>
+          </div>
+          <div class="col-lg-6 col plan">
+            <div class="tag fas fa-lock"></div>
+            <div class="text-center"><img class="img-fluid mx-auto icosketch" src="app/img/sociedadbbc.png"/></div>
+            <div class="text-center my-5">
+              <h4>Faltan pocos días para acceder a este plan y todos sus beneficios.</h4>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-10">
+                <table class="table">
+                  <tr>
+                    <td class="align-middle text-center"><img class="mico" src="app/img/mico_gift.png"/></td>
+                    <td class="align-middle">
+                      <h5>1 Kit de bienvenida.</h5>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle text-center"><img class="mico" src="app/img/mico_beer.png"/></td>
+                    <td class="align-middle">
+                      <h5>Cervezas BBC acompañadas de merchandising, recetas o elementos para mixología.</h5>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle text-center"><img class="mico" src="app/img/mico_price.png"/></td>
+                    <td class="align-middle">
+                      <h5>1 invitación mensual a eventos exclusivos de la SOCIEDAD BBC (catas, mixología, visitas a la fábrica, entre otros).</h5>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle text-center"><img class="mico" src="app/img/mico_tag.png"/></td>
+                    <td class="align-middle">
+                      <h5>10% de descuento en todos sus consumos en puntos BBC a nivel nacional durante su membresía.</h5>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle text-center"><img class="mico" src="app/img/mico_cal.png"/></td>
+                    <td class="align-middle">
+                      <h5>Días promocionales y promociones exclusias para miembros de la SOCIEDAD BBC.</h5>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle text-center"><img class="mico" src="app/img/ico_maltas.png"/></td>
+                    <td class="align-middle">
+                      <h5>Acumulación y redención de Maltas.  </h5>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="text-center my-5"><a class="btn btn-primary" href="#" data-target="#modalcomprar" data-toggle="modal">Comprar plan</a></div>
+            <hr/>
+            <div class="modal fade" id="modalcomprar">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="text-center my-5"><img class="img-fluid mx-auto icosketch" src="app/img/sociedadbbc.png"/></div>
+                  <h2 class="text-center">PRÓXIMAMENTE</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="ayuda">
+      <div class="container">
+        <h2 class="my-5 text-center">Necesito Ayuda</h2>
+        <div class="text-center mt-5">
+          <h3>Envíenos sus preguntas</h3>
+        </div>
+        <div class="row justify-content-center">
+          <form class="mb-2" action="#">
+            <input class="form-control mb-3" placeholder="Asunto"/>
+            <textarea class="form-control mb-3" placeholder="Mensaje"></textarea>
+            <div class="text-center">
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Secciones-->
+    <!-- include _mod/_banner-->
+    <!-- Qué es-->
+    <!-- include _mod/_quees-->
+    <!-- Registro-->
+    <!-- include _mod/_registro-->
+    <!-- +registro-->
+    <!-- Sucursales-->
+    <!-- include _mod/_sucursales-->
+    <!-- Promociones-->
+    <!-- include _mod/_promociones-->
+    <!-- Contacto-->
+    <!-- include _mod/_contacto-->
+  </body>
+  <div class="modal fade" id="modalterminos">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <h2 class="text-center">Terminos y condiciones</h2>
+        <div class="modal-body">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa excepturi, veniam at fugit consequatur quo perspiciatis quis quibusdam dolorem sit quisquam dolorum fugiat accusantium alias provident optio, beatae repellendus nam.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis accusantium, illum quibusdam dolor ducimus dolores aliquid nesciunt numquam atque placeat incidunt architecto qui velit consequatur quos? Doloribus explicabo quod maiores?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt laborum harum velit nisi libero. Consectetur, illum. Impedit, mollitia quaerat iure delectus atque iste itaque esse? Tenetur iusto culpa voluptates.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modaaviso">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <h2 class="text-center">Aviso de privacidad</h2>
+        <div class="modal-body">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa excepturi, veniam at fugit consequatur quo perspiciatis quis quibusdam dolorem sit quisquam dolorum fugiat accusantium alias provident optio, beatae repellendus nam.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis accusantium, illum quibusdam dolor ducimus dolores aliquid nesciunt numquam atque placeat incidunt architecto qui velit consequatur quos? Doloribus explicabo quod maiores?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt laborum harum velit nisi libero. Consectetur, illum. Impedit, mollitia quaerat iure delectus atque iste itaque esse? Tenetur iusto culpa voluptates.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modalpolitica">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <h2 class="text-center">Política de privacidad</h2>
+        <div class="modal-body">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa excepturi, veniam at fugit consequatur quo perspiciatis quis quibusdam dolorem sit quisquam dolorum fugiat accusantium alias provident optio, beatae repellendus nam.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis accusantium, illum quibusdam dolor ducimus dolores aliquid nesciunt numquam atque placeat incidunt architecto qui velit consequatur quos? Doloribus explicabo quod maiores?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt laborum harum velit nisi libero. Consectetur, illum. Impedit, mollitia quaerat iure delectus atque iste itaque esse? Tenetur iusto culpa voluptates.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modalglobal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <h2 class="text-center">Política de privacidad de global</h2>
+        <div class="modal-body">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa excepturi, veniam at fugit consequatur quo perspiciatis quis quibusdam dolorem sit quisquam dolorum fugiat accusantium alias provident optio, beatae repellendus nam.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis accusantium, illum quibusdam dolor ducimus dolores aliquid nesciunt numquam atque placeat incidunt architecto qui velit consequatur quos? Doloribus explicabo quod maiores?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt laborum harum velit nisi libero. Consectetur, illum. Impedit, mollitia quaerat iure delectus atque iste itaque esse? Tenetur iusto culpa voluptates.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center prohibase">
+    <div class="col-8 text-center">
+      <p>PROHÍBASE EL EXPENDIO DE BEBIDAS EMBRIAGANTES A MENORES DE EDAD. EL EXCESO DE ALCOHOL ES PERJUDICIAL PARA LA SALUD.</p>
+      <p>NO COMPARTA ESTE CONTENIDO CON MENORES DE EDAD.</p>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row justify-content-end"><a href="http://www.bluepureloyalty.com/" target="_blank"><img src="app/img/powered-by-blue.png" alt="Blue"/></a></div>
+    </div>
+    <div class="navbar bg-dark justify-content-center p-0">
+      <ul class="navbar nav p-0">
+        <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#modalterminos">Términos y condiciones</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#modaaviso">Aviso de privacidad</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#modalpolitica">Política de privacidad</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#modalglobal">Política de privacidad global</a></li>
+        <li class="nav-item"><a class="nav-link" href="mailto:info@maltas.com">info@maltas.com</a></li>
+      </ul>
+    </div>
+    <div class="pleca text-center p-2"><a href="http://www.bluepureloyalty.com/" target="_blank"><img src="app/img/bluemx.png" alt="Blue"/></a></div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="app/app.js"></script>
+  <script src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
+  <script src="https://unpkg.com/smoothscroll-anchor-polyfill"></script>
+</html>

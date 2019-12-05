@@ -1,0 +1,17 @@
+| <!DOCTYPE html>
+include _mod/_app
+html(lang="es")
+	+head
+	body
+		section
+			.container
+				.row.justify-content-center.my-5
+					.col-lg-3.col-md-4.col-6: img(src="app/img/maltas.png").img-fluid
+				.row.justify-content-center.my-5
+					form(action="index.html")
+						h3 Coloca tu fecha de nacimiento
+						input.form-control(placeholder="Clave de acceso" type="date").my-5
+						.text-center: button(type="submit").btn.btn-primary Ingresar
+				.row.justify-content-center
+					p.text-center: small Lorem ipsum dolor sit amet, #[strong #{nombre}] consectetur adipisicing elit. Amet itaque ducimus quos laboriosam asperiores facilis.
+	+scripts

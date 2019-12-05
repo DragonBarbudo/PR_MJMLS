@@ -1,0 +1,13 @@
+.modal.fade#loginmodal
+  .modal-dialog
+    .modal-content
+      h2.text-center Iniciar sesión
+      .modal-body
+        form(action="mi-cuenta.html").p-5
+          input.form-control(placeholder="Cédula").mb-3
+          input.form-control(placeholder="Clave" type="password").mb-3
+          .text-center
+            button(type="submit").btn.btn-primary Iniciar sesión
+      .modal-footer.justify-content-center
+        a(href="#") ¿Olvidó su clave?.
+        a(href="#") ¿No tiene cuenta?. Regístrese.

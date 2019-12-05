@@ -1,0 +1,38 @@
+mixin regform(textobtn)
+  +input('Nombre', 'text')
+  +input('Apellido paterno', 'text')
+  +input('Apellido materno', 'text')
+  +input('Correo electrónico', 'email')
+  +input('Fecha de nacimiento', 'date')
+  +input('Número telefónico', 'text')
+
+mixin registro(onlyform = false, textobtn = 'Registrarme')
+  if(!onlyform)
+    section#registro
+      .container
+        .row.justify-content-center.mt-5.mb-1: h2 Registro
+        .row.justify-content-center.mt-1.mb-3: img(src="app/img/ico_reg.png").img-fluid.mx-auto.icosketch
+        .row.justify-content-center.my-5.text-center
+          .col
+            +regform(textobtn)
+            +input('Cédula', 'text')
+            +input('Código de referido', 'text')
+            +input('Clave', 'password')
+            +input('Confirmar Clave', 'password')
+            +checkbox('Confirmo que soy mayor de edad')
+            +checkbox('Acepto Términos y Condiciones de ' + nombre)
+            +checkbox('Estoy de acuerdo con la Política de Privacidad')
+
+            button(type="submit").btn.btn-primary.my-5=textobtn
+            p: small Prohíbase el expendio de bebidas embriagantes a menores de edad. El exceso de alcohol es perjudicial para la salud.
+            p NO COMPARTA ESTE CONTENIDO CON MENORES DE EDAD
+            
+  if(onlyform)
+    .row.justify-content-center.my-5.text-center
+      .col
+        +regform(textobtn)
+        button(type="submit").btn.btn-primary.my-5=textobtn
+
+
+          
+
