@@ -1,7 +1,7 @@
 /* COLORES  */
 :root{
-  --col1 : #D53046;
-  --col2  : #EF831B;
+  --col1 : #0078A9;
+  --col2  : #2A2E37;
 }
 /* COLORES APLICADOS */
 .btn { background-color: var(--col2);  border: none; }
