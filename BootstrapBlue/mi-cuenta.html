@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap"/>
+    <link rel="stylesheet" href="app/app.css"/>
+    <title>Puntos</title>
+  </head>
+  <body>
+    <!--Login, Logout-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"><a class="navbar-brand" href="#"><img src="https://placehold.it/280x80" alt=""/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainnav">
+        <ul class="navbar nav">
+          <li class="nav-item"><a class="nav-link" href="index.html#que-es">Qué es</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#registro">Registro</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#sucursales">Sucursales</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#promociones">Promociones</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Cerrar sesión</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Contenido-->
+    <div id="mi-cuenta">
+      <div class="container">
+        <div class="row justify-content-center my-5">
+          <h2>Mi cuenta</h2>
+        </div>
+        <ul class="nav nav-tabs justify-content-center">
+          <li class="nav-item"><a class="nav-link active" href="#datos" data-toggle="tab">Datos Personales</a></li>
+          <li class="nav-item"><a class="nav-link" href="#estado" data-toggle="tab">Estado de cuenta</a></li>
+          <li class="nav-item"><a class="nav-link" href="#acceso" data-toggle="tab">Datos de acceso</a></li>
+          <li class="nav-item"><a class="nav-link" href="#notificaciones" data-toggle="tab">Notificaciones</a></li>
+          <li class="nav-item"><a class="nav-link" href="#referido" data-toggle="tab">Código referido</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" role="tabpanel" id="datos">
+                        <div class="row justify-content-center my-5 text-center">
+                          <div class="col">
+                                        <div class="form-group row">
+                                          <label class="col-form-label col-md-5 col-12 text-md-right">Correo electrónico</label>
+                                          <input class="form-control col-md-7 col-12" placeholder="Correo electrónico" type="email" value=""/>
+                                        </div>
+                                        <div class="form-group row">
+                                          <label class="col-form-label col-md-5 col-12 text-md-right">Cédula única</label>
+                                          <input class="form-control col-md-7 col-12" placeholder="Cédula única" type="text" value=""/>
+                                        </div>
+                                        <div class="form-group row">
+                                          <label class="col-form-label col-md-5 col-12 text-md-right">Código de referido</label>
+                                          <input class="form-control col-md-7 col-12" placeholder="Código de referido" type="text" value=""/>
+                                        </div>
+                                        <div class="form-group row">
+                                          <label class="col-form-label col-md-5 col-12 text-md-right">Nombre</label>
+                                          <input class="form-control col-md-7 col-12" placeholder="Nombre" type="text" value=""/>
+                                        </div>
+                                        <div class="form-group row">
+                                          <label class="col-form-label col-md-5 col-12 text-md-right">Apellido paterno</label>
+                                          <input class="form-control col-md-7 col-12" placeholder="Apellido paterno" type="text" value=""/>
+                                        </div>
+                                        <div class="form-group row">
+                                          <label class="col-form-label col-md-5 col-12 text-md-right">Apellido materno</label>
+                                          <input class="form-control col-md-7 col-12" placeholder="Apellido materno" type="text" value=""/>
+                                        </div>
+                                        <div class="form-group row">
+                                          <label class="col-form-label col-md-5 col-12 text-md-right">Fecha de nacimiento</label>
+                                          <input class="form-control col-md-7 col-12" placeholder="Fecha de nacimiento" type="date" value=""/>
+                                        </div>
+                                        <div class="form-group row">
+                                          <label class="col-form-label col-md-5 col-12 text-md-right">Número telefónico</label>
+                                          <input class="form-control col-md-7 col-12" placeholder="Número telefónico" type="text" value=""/>
+                                        </div>
+                                        <div class="form-group row">
+                                          <label class="col-form-label col-md-5 col-12 text-md-right">Código postal</label>
+                                          <input class="form-control col-md-7 col-12" placeholder="Código postal" type="text" value=""/>
+                                        </div>
+                                        <div class="form-group row">
+                                          <label class="col-form-label col-md-5 col-12 text-md-right">Contraseña</label>
+                                          <input class="form-control col-md-7 col-12" placeholder="Contraseña" type="password" value=""/>
+                                        </div>
+                                        <div class="form-group row">
+                                          <label class="col-form-label col-md-5 col-12 text-md-right">Verificar contraseña</label>
+                                          <input class="form-control col-md-7 col-12" placeholder="Verificar contraseña" type="password" value=""/>
+                                        </div>
+                                        <label class="form-group row">
+                                          <div class="col-2 col-md-5 text-right">
+                                            <input type="checkbox"/>
+                                          </div>
+                                          <div class="col-8 col-md-7 text-left"><span>Acepto Términos y Condiciones de Puntos</span></div>
+                                        </label>
+                                        <label class="form-group row">
+                                          <div class="col-2 col-md-5 text-right">
+                                            <input type="checkbox"/>
+                                          </div>
+                                          <div class="col-8 col-md-7 text-left"><span>Estoy de acuerdo con la Política de Privacidad</span></div>
+                                        </label>
+                                        <button class="btn btn-primary my-5" type="submit">Editar mis datos</button>
+                          </div>
+                        </div>
+          </div>
+          <div class="tab-pane" role="tabpanel" id="estado">
+            <div class="row justify-content-center my-5 text-center">
+              <div class="col">
+                <h3>Julio de 2019 a Diciembre de 2019</h3>
+                <ul class="list-group"></ul>
+                <li class="list-group-item">Puntos acumulados: <strong>10,500.00</strong></li>
+                <li class="list-group-item">Puntos canjeados: <strong>18,990.00</strong></li>
+              </div>
+            </div>
+            <div class="row justify-content-center my-5 text-center">
+              <div class="col">
+                <h3>Detalle del periodo</h3>
+                <div class="input-group justify-content-center">
+                  <div class="input-group-prepend">
+                    <label class="input-group-text">Periodo</label>
+                  </div>
+                  <select>
+                    <option>Agosto 2019</option>
+                    <option>Septiembre 2019</option>
+                    <option>Octubre 2019</option>
+                    <option>Noviembre 2019</option>
+                  </select>
+                </div>
+                <table class="table my-4">
+                  <thead>
+                    <tr>
+                      <th scope="col">Fecha</th>
+                      <th scope="col">Concepto</th>
+                      <th scope="col">Puntos</th>
+                      <th scope="col">Saldo</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr> 
+                      <th scope="col">3/07/2019</th>
+                      <td>Acumulación 1</td>
+                      <td>33 puntos</td>
+                      <td>33 puntos</td>
+                    </tr>
+                    <tr> 
+                      <th scope="col">6/07/2019</th>
+                      <td>Acumulación 2</td>
+                      <td>61 puntos</td>
+                      <td>94 puntos</td>
+                    </tr>
+                    <tr> 
+                      <th scope="col">6/07/2019</th>
+                      <td>Acumulación 3</td>
+                      <td>29 puntos</td>
+                      <td>123 puntos</td>
+                    </tr>
+                    <tr> 
+                      <th scope="col">12/07/2019</th>
+                      <td>Acumulación 4</td>
+                      <td>46 puntos</td>
+                      <td>169 puntos</td>
+                    </tr>
+                    <tr> 
+                      <th scope="col">15/07/2019</th>
+                      <td>Acumulación 5</td>
+                      <td>85 puntos</td>
+                      <td>254 puntos</td>
+                    </tr>
+                  </tbody>
+                  <tfoot:tr>
+                    <td></td>
+                    <td></td>
+                    <td>Total</td>
+                    <th>254 puntos</th>
+                  </tfoot:tr>
+                </table>
+              </div>
+            </div>
+            <div class="row justify-content-center my-5 text-center">
+              <div class="col">
+                <h3>Puntos por vencer el próximo mes</h3>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-8">
+                <div class="alert alert-primary text-center">
+                  <h4 class="mr-3">Mes: <strong>Enero</strong></h4>
+                  <div>Puntos por vencer: <strong>216 Puntos</strong></div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="alert alert-dark"><span>La vigencia de los puntos es de 12 meses a partir del mes de acumulación.</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" role="tabpanel" id="acceso">
+            <div class="row justify-content-center my-5 text-center">
+              <div class="col-6">
+                <div class="form-group row">
+                  <label class="col-form-label col-md-5 col-12 text-md-right">Usuario</label>
+                  <input class="form-control col-md-7 col-12" placeholder="Usuario" type="text" value="usuaro@dominio.com" disabled="disabled"/>
+                </div>
+                <div class="form-group row">
+                  <label class="col-form-label col-md-5 col-12 text-md-right">Contraseña</label>
+                  <input class="form-control col-md-7 col-12" placeholder="Contraseña" type="password" value=""/>
+                </div>
+                <div class="form-group row">
+                  <label class="col-form-label col-md-5 col-12 text-md-right">Confirmar contraseña</label>
+                  <input class="form-control col-md-7 col-12" placeholder="Confirmar contraseña" type="password" value=""/>
+                </div>
+                <button class="btn btn-primary my-5" type="submit">Editar contraseña</button>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" role="tabpanel" id="notificaciones">
+            <div class="row justify-content-center my-5 text-center">
+              <div class="col">
+                <h3>Selecciona las notificaciones que deseas recibir</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label class="form-group row">
+                  <div class="col-2 col-md-5 text-right">
+                    <input type="checkbox"/>
+                  </div>
+                  <div class="col-8 col-md-7 text-left"><span>Maltas</span></div>
+                </label>
+                <label class="form-group row">
+                  <div class="col-2 col-md-5 text-right">
+                    <input type="checkbox"/>
+                  </div>
+                  <div class="col-8 col-md-7 text-left"><span>Descuentos</span></div>
+                </label>
+              </div>
+              <div class="col">
+                <label class="form-group row">
+                  <div class="col-2 col-md-5 text-right">
+                    <input type="checkbox"/>
+                  </div>
+                  <div class="col-8 col-md-7 text-left"><span>Eventos</span></div>
+                </label>
+                <label class="form-group row">
+                  <div class="col-2 col-md-5 text-right">
+                    <input type="checkbox"/>
+                  </div>
+                  <div class="col-8 col-md-7 text-left"><span>Kits</span></div>
+                </label>
+              </div>
+            </div>
+            <div class="text-center">
+              <button class="btn btn-primary my-5" type="submit">Guardar</button>
+            </div>
+          </div>
+          <div class="tab-pane" role="tabpanel" id="referido">
+            <div class="row justify-content-center my-5 text-center">
+              <div class="col-md-6">
+                <h4>Enviar correo</h4>
+                <div class="form-group row">
+                  <label class="col-form-label col-md-5 col-12 text-md-right">Correo electrónico</label>
+                  <input class="form-control col-md-7 col-12" placeholder="Correo electrónico" type="email" value=""/>
+                </div>
+                <div class="text-right">
+                  <button class="btn btn-primary my-2" type="submit">Envíar código de referido</button>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <h4>Enviar Whatsapp</h4>
+                <div class="form-group row">
+                  <label class="col-form-label col-md-5 col-12 text-md-right">Whatsapp</label>
+                  <input class="form-control col-md-7 col-12" placeholder="Whatsapp" type="email" value=""/>
+                </div>
+                <div class="text-right">
+                  <button class="btn btn-primary my-2" type="submit">Envíar Whatsapp</button>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center my-5 text-center">
+              <div class="col-md-6">
+                <h4>Compartir en redes sociales</h4>
+                <div class="row justify-content-center text-center">
+                  <div class="col-2"><a class="btn" href="#"><i class="fab fa-facebook-f"></i></a></div>
+                  <div class="col-2"><a class="btn" href="#"><i class="fab fa-twitter"></i></a></div>
+                  <div class="col-2"><a class="btn" href="#"><i class="fab fa-instagram"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="container">
+      <div class="row justify-content-end"><a href="http://www.bluepureloyalty.com/" target="_blank"><img src="app/img/powered-by-blue.png" alt="Blue"/></a></div>
+    </div>
+    <div class="navbar bg-dark justify-content-center p-0">
+      <ul class="navbar nav p-0">
+        <li class="nav-item"><a class="nav-link" href="#">Términos y condiciones</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Preguntas frecuentes</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Aviso de privacidad</a></li>
+        <li class="nav-item"><a class="nav-link" href="mailto:info@puntos.com">info@puntos.com</a></li>
+      </ul>
+    </div>
+    <div class="pleca text-center p-2"><a href="http://www.bluepureloyalty.com/" target="_blank"><img src="app/img/bluemx.png" alt="Blue"/></a></div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="app/app.js"></script>
+  <script src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
+  <script src="https://unpkg.com/smoothscroll-anchor-polyfill"></script>
+</html>

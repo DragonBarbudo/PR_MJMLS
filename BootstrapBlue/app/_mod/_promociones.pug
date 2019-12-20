@@ -1,0 +1,14 @@
+section#promociones
+  .container
+    .row.justify-content-center.my-5: h2 Promociones
+    .row.justify-content-center.my-5.text-center
+      .carousel.slide(data-ride="carousel")#promobanner
+        .carousel-inner
+          .carousel-item.active
+            img(src="http://placehold.it/1200x600").d-block.w-100
+          .carousel-item
+            img(src="http://placehold.it/1200x601").d-block.w-100
+        .carousel-control-prev(href="#promobanner" role="button" data-slide="prev")
+          span.carousel-control-prev-icon
+        .carousel-control-next(href="#promobanner" role="button" data-slide="next")
+          span.carousel-control-next-icon

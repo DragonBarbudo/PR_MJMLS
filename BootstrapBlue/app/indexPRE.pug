@@ -1,0 +1,18 @@
+| <!DOCTYPE html>
+include _mod/_app
+html(lang="es")
+	+head
+	body
+		section
+			.container
+				.row.justify-content-center.my-5
+					img(src="https://placehold.it/280x80", alt="")
+				.row.justify-content-center.my-5
+					form(action="index.html").card
+						.card-body
+							input.form-control(placeholder="Usuario").mb-3
+							input.form-control(placeholder="Contraseña" type="password").mb-3
+							.text-center: button(type="submit").btn.btn-primary Iniciar sesión
+				.row.justify-content-center
+					p.text-center: small Lorem ipsum dolor sit amet, #[strong #{nombre}] consectetur adipisicing elit. Amet itaque ducimus quos laboriosam asperiores facilis.
+	+scripts

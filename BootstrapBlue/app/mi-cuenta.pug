@@ -1,0 +1,64 @@
+| <!DOCTYPE html>
+include _mod/_app
+html(lang="es")
+  +head
+  body
+    //Login, Logout
+    +nav(false, true)
+
+    // Contenido
+    #mi-cuenta
+      .container
+        .row.justify-content-center.my-5: h2 Mi cuenta
+        ul.nav.nav-tabs.justify-content-center
+          li.nav-item: a(href="#datos" data-toggle="tab").nav-link.active Datos Personales
+          li.nav-item: a(href="#estado" data-toggle="tab").nav-link Estado de cuenta
+          li.nav-item: a(href="#acceso" data-toggle="tab").nav-link Datos de acceso
+          li.nav-item: a(href="#notificaciones" data-toggle="tab").nav-link Notificaciones
+          li.nav-item: a(href="#referido" data-toggle="tab").nav-link Código referido
+        
+        .tab-content
+          .tab-pane.active(role="tabpanel")#datos
+            include _mod/_registro
+            +registro(true, 'Editar mis datos')
+          .tab-pane(role="tabpanel")#estado
+            include _mod/_estadocta
+          .tab-pane(role="tabpanel")#acceso
+            .row.justify-content-center.my-5.text-center
+              .col-6
+                +input('Usuario', 'text', 'usuaro@dominio.com', true)
+                +input('Contraseña', 'password')
+                +input('Confirmar contraseña', 'password')
+                button(type="submit").btn.btn-primary.my-5 Editar contraseña
+          .tab-pane(role="tabpanel")#notificaciones
+            .row.justify-content-center.my-5.text-center
+              .col
+                h3 Selecciona las notificaciones que deseas recibir
+            .row
+              .col
+                +checkbox('Maltas')
+                +checkbox('Descuentos')
+              .col
+                +checkbox('Eventos')
+                +checkbox('Kits')
+            .text-center: button(type="submit").btn.btn-primary.my-5 Guardar
+          .tab-pane(role="tabpanel")#referido
+            .row.justify-content-center.my-5.text-center
+              .col-md-6
+                h4 Enviar correo
+                +input('Correo electrónico', 'email')
+                .text-right: button(type="submit").btn.btn-primary.my-2 Envíar código de referido
+              .col-md-6
+                h4 Enviar Whatsapp
+                +input('Whatsapp', 'email')
+                .text-right: button(type="submit").btn.btn-primary.my-2 Envíar Whatsapp
+            .row.justify-content-center.my-5.text-center
+              .col-md-6
+                h4 Compartir en redes sociales
+                .row.justify-content-center.text-center
+                  .col-2: a(href="#").btn: i.fab.fa-facebook-f
+                  .col-2: a(href="#").btn: i.fab.fa-twitter
+                  .col-2: a(href="#").btn: i.fab.fa-instagram
+
+  +footer
+  +scripts
