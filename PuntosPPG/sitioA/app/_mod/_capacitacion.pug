@@ -1,0 +1,12 @@
+section#material
+  .container
+    .row.justify-content-center.my-5: h2 Material
+    .row.justify-content-center.my-5.text-center
+      - for (var i = 0; i < 3; i++)
+        .col-md-4.py-3
+          h4.text-center Documento
+          img(src="app/img/ico-doc.png").d-block.img-fluid.mx-auto
+      - for (var i = 0; i < 3; i++)
+        .col-md-4.py-3
+          h4.text-center Video
+          img(src="app/img/ico-vid.png").d-block.img-fluid.mx-auto

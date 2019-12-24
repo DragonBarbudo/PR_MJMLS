@@ -43,6 +43,24 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/app\/_mod\/_capacitacion.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/_capacitacion.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/app\/_mod\/_catalogo.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/_catalogo.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/app\/_mod\/_contacto.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -76,6 +94,15 @@
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/_loginmodal.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/app\/_mod\/_metas.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/_metas.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -115,6 +142,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/app\/app-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/app\/app-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/app\/app.css": {
 		"aP": 1,
 		"bl": 0,
@@ -146,14 +183,102 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/app\/img\/canje-1.jpg": {
+		"ft": 16384,
+		"iS": 77066,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/img\/canje-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/app\/img\/canje-2.jpg": {
+		"ft": 16384,
+		"iS": 55456,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/img\/canje-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/img\/canje-3.jpg": {
+		"ft": 16384,
+		"iS": 174448,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/img\/canje-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/img\/canje-4.jpg": {
+		"ft": 16384,
+		"iS": 80568,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/img\/canje-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/img\/canje-5.jpg": {
+		"ft": 16384,
+		"iS": 36601,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/img\/canje-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/img\/canje-6.jpg": {
+		"ft": 16384,
+		"iS": 57466,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/img\/canje-6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/img\/ico-doc.png": {
+		"ft": 32768,
+		"iS": 4187,
+		"oA": 0,
+		"oAP": "\/app\/img\/ico-doc.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/ico-vid.png": {
+		"ft": 32768,
+		"iS": 5575,
+		"oA": 0,
+		"oAP": "\/app\/img\/ico-vid.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/app\/img\/logo.png": {
 		"ft": 32768,
 		"iS": 935,
 		"oA": 0,
 		"oAP": "\/app\/img\/logo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -176,7 +301,7 @@
 		"oAP": "\/app\/img\/promo.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/img\/s1.jpg": {
@@ -198,7 +323,7 @@
 		"oAP": "\/app\/img\/s2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/index.pug": {

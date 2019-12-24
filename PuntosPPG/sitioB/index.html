@@ -20,13 +20,11 @@
         <ul class="navbar nav">
           <li class="nav-item"><a class="nav-link" href="index.html#que-es">Qué es</a></li>
           <li class="nav-item"><a class="nav-link" href="index.html#registro">Registro</a></li>
-          <li class="nav-item"><a class="nav-link" href="index.html#mis-metas">Mis Metas</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#mis-metas">Mis metas</a></li>
           <li class="nav-item"><a class="nav-link" href="index.html#catalogo">Catálogo</a></li>
-          <li class="nav-item"><a class="nav-link" href="index.html#material">Material</a></li>
           <li class="nav-item"><a class="nav-link" href="index.html#promociones">Promociones</a></li>
           <li class="nav-item"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
           <li class="nav-item"><a class="nav-link" href="#" data-target="#loginmodal" data-toggle="modal">Iniciar sesión</a></li>
-          <li class="nav-item"><a class="nav-link highlight" href="../sitioB/index.html">Soy Ejecutivo <small>de Ventas</small></a></li>
         </ul>
       </div>
     </nav>
@@ -76,62 +74,43 @@
             <div class="row justify-content-center my-5 text-center">
               <div class="col">
                     <div class="form-group row">
-                      <label class="col-form-label col-md-5 col-12 text-md-right">Número de tarjeta</label>
-                      <input class="form-control col-md-7 col-12" placeholder="Número de tarjeta" type="text" value=""/>
-                    </div>
-                    <div class="form-group row">
-                      <label class="col-form-label col-md-5 col-12 text-md-right">Distribuidor</label>
-                      <select class="form-control col-md-7 col-12">
-                        <option>Distribuidor A</option>
-                        <option>Distribuidor B</option>
-                        <option>Distribuidor C</option>
-                      </select>
-                    </div>
-                    <div class="form-group row">
-                      <label class="col-form-label col-md-5 col-12 text-md-right">Sucursal</label>
-                      <select class="form-control col-md-7 col-12">
-                        <option>Sucursal A</option>
-                        <option>Sucursal B</option>
-                        <option>Sucursal C</option>
-                      </select>
-                    </div>
-                    <div class="form-group row">
                       <label class="col-form-label col-md-5 col-12 text-md-right">Correo electrónico</label>
                       <input class="form-control col-md-7 col-12" placeholder="Correo electrónico" type="email" value=""/>
                     </div>
-                    <div class="form-group row">
-                      <label class="col-form-label col-md-5 col-12 text-md-right">Nombre</label>
-                      <input class="form-control col-md-7 col-12" placeholder="Nombre" type="text" value=""/>
+                    <div id="conditionalreg">
+                      <div class="form-group row">
+                        <label class="col-form-label col-md-5 col-12 text-md-right">Contraseña temporal</label>
+                        <input class="form-control col-md-7 col-12" placeholder="Contraseña temporal" type="password" value=""/>
+                      </div>
+                      <button class="btn btn-primary my-5" type="button" data-toggle="collapse" href="#formreg">Validar contraseña</button>
                     </div>
-                    <div class="form-group row">
-                      <label class="col-form-label col-md-5 col-12 text-md-right">Apellido paterno</label>
-                      <input class="form-control col-md-7 col-12" placeholder="Apellido paterno" type="text" value=""/>
+                    <div class="collapse" id="formreg">
+                      <div class="form-group row">
+                        <label class="col-form-label col-md-5 col-12 text-md-right">Nombre</label>
+                        <input class="form-control col-md-7 col-12" placeholder="Nombre" type="text" value=""/>
+                      </div>
+                      <div class="form-group row">
+                        <label class="col-form-label col-md-5 col-12 text-md-right">Apellido paterno</label>
+                        <input class="form-control col-md-7 col-12" placeholder="Apellido paterno" type="text" value=""/>
+                      </div>
+                      <div class="form-group row">
+                        <label class="col-form-label col-md-5 col-12 text-md-right">Apellido materno</label>
+                        <input class="form-control col-md-7 col-12" placeholder="Apellido materno" type="text" value=""/>
+                      </div>
+                      <div class="form-group row">
+                        <label class="col-form-label col-md-5 col-12 text-md-right">Fecha de nacimiento</label>
+                        <input class="form-control col-md-7 col-12" placeholder="Fecha de nacimiento" type="date" value=""/>
+                      </div>
+                      <div class="form-group row">
+                        <label class="col-form-label col-md-5 col-12 text-md-right">Número telefónico</label>
+                        <input class="form-control col-md-7 col-12" placeholder="Número telefónico" type="text" value=""/>
+                      </div>
+                      <div class="form-group row">
+                        <label class="col-form-label col-md-5 col-12 text-md-right">Código postal</label>
+                        <input class="form-control col-md-7 col-12" placeholder="Código postal" type="text" value=""/>
+                      </div>
+                      <button class="btn btn-primary my-5" type="submit">Registrarme</button>
                     </div>
-                    <div class="form-group row">
-                      <label class="col-form-label col-md-5 col-12 text-md-right">Apellido materno</label>
-                      <input class="form-control col-md-7 col-12" placeholder="Apellido materno" type="text" value=""/>
-                    </div>
-                    <div class="form-group row">
-                      <label class="col-form-label col-md-5 col-12 text-md-right">Fecha de nacimiento</label>
-                      <input class="form-control col-md-7 col-12" placeholder="Fecha de nacimiento" type="date" value=""/>
-                    </div>
-                    <div class="form-group row">
-                      <label class="col-form-label col-md-5 col-12 text-md-right">Número telefónico</label>
-                      <input class="form-control col-md-7 col-12" placeholder="Número telefónico" type="text" value=""/>
-                    </div>
-                    <div class="form-group row">
-                      <label class="col-form-label col-md-5 col-12 text-md-right">Código postal</label>
-                      <input class="form-control col-md-7 col-12" placeholder="Código postal" type="text" value=""/>
-                    </div>
-                    <div class="form-group row">
-                      <label class="col-form-label col-md-5 col-12 text-md-right">Contraseña</label>
-                      <input class="form-control col-md-7 col-12" placeholder="Contraseña" type="password" value=""/>
-                    </div>
-                    <div class="form-group row">
-                      <label class="col-form-label col-md-5 col-12 text-md-right">Verificar contraseña</label>
-                      <input class="form-control col-md-7 col-12" placeholder="Verificar contraseña" type="password" value=""/>
-                    </div>
-                    <button class="btn btn-primary my-5" type="submit">Registrarme</button>
                 <label class="form-group row">
                   <div class="col-2 col-md-5 text-right">
                     <input type="checkbox"/>
@@ -225,33 +204,7 @@
       </div>
     </section>
     <!-- Capacitación-->
-    <section id="material">
-      <div class="container">
-        <div class="row justify-content-center my-5">
-          <h2>Material</h2>
-        </div>
-        <div class="row justify-content-center my-5 text-center">
-          <div class="col-md-4 py-3">
-            <h4 class="text-center">Documento</h4><img class="d-block img-fluid mx-auto" src="app/img/ico-doc.png"/>
-          </div>
-          <div class="col-md-4 py-3">
-            <h4 class="text-center">Documento</h4><img class="d-block img-fluid mx-auto" src="app/img/ico-doc.png"/>
-          </div>
-          <div class="col-md-4 py-3">
-            <h4 class="text-center">Documento</h4><img class="d-block img-fluid mx-auto" src="app/img/ico-doc.png"/>
-          </div>
-          <div class="col-md-4 py-3">
-            <h4 class="text-center">Video</h4><img class="d-block img-fluid mx-auto" src="app/img/ico-vid.png"/>
-          </div>
-          <div class="col-md-4 py-3">
-            <h4 class="text-center">Video</h4><img class="d-block img-fluid mx-auto" src="app/img/ico-vid.png"/>
-          </div>
-          <div class="col-md-4 py-3">
-            <h4 class="text-center">Video</h4><img class="d-block img-fluid mx-auto" src="app/img/ico-vid.png"/>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- include _mod/_capacitacion-->
     <!-- Promociones-->
     <section id="promociones">
       <div class="container">

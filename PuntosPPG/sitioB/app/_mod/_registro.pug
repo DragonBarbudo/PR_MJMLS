@@ -1,20 +1,16 @@
 mixin regform(textobtn)
-  +input('Número de tarjeta', 'text')
-  +select('Distribuidor', 'Distribuidor A', 'Distribuidor B', 'Distribuidor C')
-  +select('Sucursal', 'Sucursal A', 'Sucursal B', 'Sucursal C')
   +input('Correo electrónico', 'email')
-  +input('Nombre', 'text')
-  +input('Apellido paterno', 'text')
-  +input('Apellido materno', 'text')
-  +input('Fecha de nacimiento', 'date')
-  +input('Número telefónico', 'text')
-  +input('Código postal', 'text')
-  +input('Contraseña', 'password')
-  +input('Verificar contraseña', 'password')
-  
-  
-  
-  button(type="submit").btn.btn-primary.my-5=textobtn
+  #conditionalreg
+    +input('Contraseña temporal', 'password')
+    button(type="button" data-toggle="collapse" href="#formreg").btn.btn-primary.my-5 Validar contraseña
+  #formreg.collapse
+    +input('Nombre', 'text')
+    +input('Apellido paterno', 'text')
+    +input('Apellido materno', 'text')
+    +input('Fecha de nacimiento', 'date')
+    +input('Número telefónico', 'text')
+    +input('Código postal', 'text')
+    button(type="submit").btn.btn-primary.my-5=textobtn
 
 
 mixin registro(onlyform = false, textobtn = 'Registrarme')
@@ -27,6 +23,7 @@ mixin registro(onlyform = false, textobtn = 'Registrarme')
             +regform(textobtn)
             +checkbox('Acepto Términos y Condiciones de ' + nombre)
             +checkbox('Estoy de acuerdo con la Política de Privacidad')
+            
   if(onlyform)
     .row.justify-content-center.my-5.text-center
       .col

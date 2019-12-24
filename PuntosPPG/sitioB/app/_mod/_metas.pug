@@ -1,0 +1,26 @@
+section#mis-metas
+  .container
+    .row.justify-content-center.my-5: h2 Mis Metas
+    .row.justify-content-center.my-5.text-center
+        form(action="#").metasForm
+            input.form-control(placeholder="Usuario").mb-3
+            input.form-control(placeholder="Contraseña" type="password").mb-3
+            .text-center
+                button(type="button").btn.btn-primary Iniciar sesión
+    .row.justify-content-center.my-5.text-center.metasLogin
+        .col-md-3.text-center
+            h5 Ventas totales
+            h6 30%
+            .bargraph: .bar(style="height:30%")
+        .col-md-3.text-center
+            h5 Ventas éxito
+            h6 60%
+            .bargraph: .bar(style="height:60%")
+        .col-md-3.text-center
+            h5 Ventas Polyform
+            h6 76%
+            .bargraph: .bar(style="height:76%")
+        .col-md-3.text-center
+            h5 Ventas Ultra Color
+            h6 40%
+            .bargraph: .bar(style="height:40%")

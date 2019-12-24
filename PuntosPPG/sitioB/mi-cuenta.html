@@ -20,9 +20,8 @@
         <ul class="navbar nav">
           <li class="nav-item"><a class="nav-link" href="index.html#que-es">Qué es</a></li>
           <li class="nav-item"><a class="nav-link" href="index.html#registro">Registro</a></li>
-          <li class="nav-item"><a class="nav-link" href="index.html#mis-metas">Mis Metas</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#mis-metas">Mis metas</a></li>
           <li class="nav-item"><a class="nav-link" href="index.html#catalogo">Catálogo</a></li>
-          <li class="nav-item"><a class="nav-link" href="index.html#material">Material</a></li>
           <li class="nav-item"><a class="nav-link" href="index.html#promociones">Promociones</a></li>
           <li class="nav-item"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
           <li class="nav-item"><a class="nav-link" href="index.html">Cerrar sesión</a></li>
@@ -48,62 +47,43 @@
                         <div class="row justify-content-center my-5 text-center">
                           <div class="col">
                                         <div class="form-group row">
-                                          <label class="col-form-label col-md-5 col-12 text-md-right">Número de tarjeta</label>
-                                          <input class="form-control col-md-7 col-12" placeholder="Número de tarjeta" type="text" value=""/>
-                                        </div>
-                                        <div class="form-group row">
-                                          <label class="col-form-label col-md-5 col-12 text-md-right">Distribuidor</label>
-                                          <select class="form-control col-md-7 col-12">
-                                            <option>Distribuidor A</option>
-                                            <option>Distribuidor B</option>
-                                            <option>Distribuidor C</option>
-                                          </select>
-                                        </div>
-                                        <div class="form-group row">
-                                          <label class="col-form-label col-md-5 col-12 text-md-right">Sucursal</label>
-                                          <select class="form-control col-md-7 col-12">
-                                            <option>Sucursal A</option>
-                                            <option>Sucursal B</option>
-                                            <option>Sucursal C</option>
-                                          </select>
-                                        </div>
-                                        <div class="form-group row">
                                           <label class="col-form-label col-md-5 col-12 text-md-right">Correo electrónico</label>
                                           <input class="form-control col-md-7 col-12" placeholder="Correo electrónico" type="email" value=""/>
                                         </div>
-                                        <div class="form-group row">
-                                          <label class="col-form-label col-md-5 col-12 text-md-right">Nombre</label>
-                                          <input class="form-control col-md-7 col-12" placeholder="Nombre" type="text" value=""/>
+                                        <div id="conditionalreg">
+                                          <div class="form-group row">
+                                            <label class="col-form-label col-md-5 col-12 text-md-right">Contraseña temporal</label>
+                                            <input class="form-control col-md-7 col-12" placeholder="Contraseña temporal" type="password" value=""/>
+                                          </div>
+                                          <button class="btn btn-primary my-5" type="button" data-toggle="collapse" href="#formreg">Validar contraseña</button>
                                         </div>
-                                        <div class="form-group row">
-                                          <label class="col-form-label col-md-5 col-12 text-md-right">Apellido paterno</label>
-                                          <input class="form-control col-md-7 col-12" placeholder="Apellido paterno" type="text" value=""/>
+                                        <div class="collapse" id="formreg">
+                                          <div class="form-group row">
+                                            <label class="col-form-label col-md-5 col-12 text-md-right">Nombre</label>
+                                            <input class="form-control col-md-7 col-12" placeholder="Nombre" type="text" value=""/>
+                                          </div>
+                                          <div class="form-group row">
+                                            <label class="col-form-label col-md-5 col-12 text-md-right">Apellido paterno</label>
+                                            <input class="form-control col-md-7 col-12" placeholder="Apellido paterno" type="text" value=""/>
+                                          </div>
+                                          <div class="form-group row">
+                                            <label class="col-form-label col-md-5 col-12 text-md-right">Apellido materno</label>
+                                            <input class="form-control col-md-7 col-12" placeholder="Apellido materno" type="text" value=""/>
+                                          </div>
+                                          <div class="form-group row">
+                                            <label class="col-form-label col-md-5 col-12 text-md-right">Fecha de nacimiento</label>
+                                            <input class="form-control col-md-7 col-12" placeholder="Fecha de nacimiento" type="date" value=""/>
+                                          </div>
+                                          <div class="form-group row">
+                                            <label class="col-form-label col-md-5 col-12 text-md-right">Número telefónico</label>
+                                            <input class="form-control col-md-7 col-12" placeholder="Número telefónico" type="text" value=""/>
+                                          </div>
+                                          <div class="form-group row">
+                                            <label class="col-form-label col-md-5 col-12 text-md-right">Código postal</label>
+                                            <input class="form-control col-md-7 col-12" placeholder="Código postal" type="text" value=""/>
+                                          </div>
+                                          <button class="btn btn-primary my-5" type="submit">Editar mis datos</button>
                                         </div>
-                                        <div class="form-group row">
-                                          <label class="col-form-label col-md-5 col-12 text-md-right">Apellido materno</label>
-                                          <input class="form-control col-md-7 col-12" placeholder="Apellido materno" type="text" value=""/>
-                                        </div>
-                                        <div class="form-group row">
-                                          <label class="col-form-label col-md-5 col-12 text-md-right">Fecha de nacimiento</label>
-                                          <input class="form-control col-md-7 col-12" placeholder="Fecha de nacimiento" type="date" value=""/>
-                                        </div>
-                                        <div class="form-group row">
-                                          <label class="col-form-label col-md-5 col-12 text-md-right">Número telefónico</label>
-                                          <input class="form-control col-md-7 col-12" placeholder="Número telefónico" type="text" value=""/>
-                                        </div>
-                                        <div class="form-group row">
-                                          <label class="col-form-label col-md-5 col-12 text-md-right">Código postal</label>
-                                          <input class="form-control col-md-7 col-12" placeholder="Código postal" type="text" value=""/>
-                                        </div>
-                                        <div class="form-group row">
-                                          <label class="col-form-label col-md-5 col-12 text-md-right">Contraseña</label>
-                                          <input class="form-control col-md-7 col-12" placeholder="Contraseña" type="password" value=""/>
-                                        </div>
-                                        <div class="form-group row">
-                                          <label class="col-form-label col-md-5 col-12 text-md-right">Verificar contraseña</label>
-                                          <input class="form-control col-md-7 col-12" placeholder="Verificar contraseña" type="password" value=""/>
-                                        </div>
-                                        <button class="btn btn-primary my-5" type="submit">Editar mis datos</button>
                           </div>
                         </div>
           </div>
@@ -141,41 +121,41 @@
                   </thead>
                   <tbody>
                     <tr> 
-                      <th scope="col">3/07/2019</th>
+                      <th scope="col">2/07/2019</th>
                       <td>Acumulación 1</td>
-                      <td>75 puntos</td>
-                      <td>75 puntos</td>
+                      <td>45 puntos</td>
+                      <td>45 puntos</td>
+                    </tr>
+                    <tr> 
+                      <th scope="col">4/07/2019</th>
+                      <td>Acumulación 2</td>
+                      <td>53 puntos</td>
+                      <td>98 puntos</td>
                     </tr>
                     <tr> 
                       <th scope="col">6/07/2019</th>
-                      <td>Acumulación 2</td>
-                      <td>60 puntos</td>
-                      <td>135 puntos</td>
-                    </tr>
-                    <tr> 
-                      <th scope="col">9/07/2019</th>
                       <td>Acumulación 3</td>
-                      <td>30 puntos</td>
-                      <td>165 puntos</td>
+                      <td>58 puntos</td>
+                      <td>156 puntos</td>
                     </tr>
                     <tr> 
-                      <th scope="col">8/07/2019</th>
+                      <th scope="col">12/07/2019</th>
                       <td>Acumulación 4</td>
-                      <td>49 puntos</td>
-                      <td>214 puntos</td>
+                      <td>97 puntos</td>
+                      <td>253 puntos</td>
                     </tr>
                     <tr> 
-                      <th scope="col">10/07/2019</th>
+                      <th scope="col">15/07/2019</th>
                       <td>Acumulación 5</td>
-                      <td>87 puntos</td>
-                      <td>301 puntos</td>
+                      <td>78 puntos</td>
+                      <td>331 puntos</td>
                     </tr>
                   </tbody>
                   <tfoot:tr>
                     <td></td>
                     <td></td>
                     <td>Total</td>
-                    <th>301 puntos</th>
+                    <th>331 puntos</th>
                   </tfoot:tr>
                 </table>
               </div>
@@ -189,7 +169,7 @@
               <div class="col-8">
                 <div class="alert alert-primary text-center">
                   <h4 class="mr-3">Mes: <strong>Enero</strong></h4>
-                  <div>Puntos por vencer: <strong>263 Puntos PPG</strong></div>
+                  <div>Puntos por vencer: <strong>293 Puntos PPG</strong></div>
                 </div>
               </div>
               <div class="col">
@@ -266,12 +246,15 @@
                 .col-2: a(href="#").btn: i.fab.fa-facebook-f
                 .col-2: a(href="#").btn: i.fab.fa-twitter
                 .col-2: a(href="#").btn: i.fab.fa-instagram
-          
           -->
         </div>
       </div>
     </div>
   </body>
+  <style>
+    #conditionalreg { display: none;}
+    #formreg.collapse { display: block; }
+  </style>
   <footer>
     <div class="container">
       <div class="row justify-content-end"><a href="http://www.bluepureloyalty.com/" target="_blank"><img src="app/img/powered-by-blue.png" alt="Blue"/></a></div>
