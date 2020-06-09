@@ -9,22 +9,6 @@
 	],
 "creatorBuild": "26667",
 "files": {
-	"\/_indexPRE.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_indexPRE.html",
-		"oF": 0
-		},
-	"\/app\/_indexPRE.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/_indexPRE.html",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/app\/_mod\/_app.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -43,12 +27,12 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/app\/_mod\/_capacitacion.pug": {
+	"\/app\/_mod\/_bluecodes.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/_capacitacion.html",
+		"oAP": "\/_bluecodes.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -94,15 +78,6 @@
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/_loginmodal.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/app\/_mod\/_metas.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "\/_metas.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -188,7 +163,7 @@
 		"iS": 77066,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/app\/img\/canje-1.jpg",
+		"oAP": "\/app\/img\/.canje-1~imageoptim.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -196,10 +171,10 @@
 		},
 	"\/app\/img\/canje-2.jpg": {
 		"ft": 16384,
-		"iS": 9976,
+		"iS": 174448,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/app\/img\/canje-2.jpg",
+		"oAP": "\/app\/img\/.canje-2~imageoptim.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -207,7 +182,7 @@
 		},
 	"\/app\/img\/canje-3.jpg": {
 		"ft": 16384,
-		"iS": 174448,
+		"iS": 158834,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/app\/img\/canje-3.jpg",
@@ -218,7 +193,7 @@
 		},
 	"\/app\/img\/canje-4.jpg": {
 		"ft": 16384,
-		"iS": 17870,
+		"iS": 220973,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/app\/img\/canje-4.jpg",
@@ -229,7 +204,7 @@
 		},
 	"\/app\/img\/canje-5.jpg": {
 		"ft": 16384,
-		"iS": 36601,
+		"iS": 185257,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/app\/img\/canje-5.jpg",
@@ -240,7 +215,7 @@
 		},
 	"\/app\/img\/canje-6.jpg": {
 		"ft": 16384,
-		"iS": 57466,
+		"iS": 47703,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/app\/img\/canje-6.jpg",
@@ -249,33 +224,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/app\/img\/ico-doc.png": {
+	"\/app\/img\/LOGO.png": {
 		"ft": 32768,
-		"iS": 4187,
+		"iS": 6730,
 		"oA": 0,
-		"oAP": "\/app\/img\/ico-doc.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/app\/img\/ico-vid.png": {
-		"ft": 32768,
-		"iS": 5575,
-		"oA": 0,
-		"oAP": "\/app\/img\/ico-vid.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/app\/img\/logo.png": {
-		"ft": 32768,
-		"iS": 935,
-		"oA": 0,
-		"oAP": "\/app\/img\/logo.png",
+		"oAP": "\/app\/img\/LOGO.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -295,18 +248,18 @@
 		},
 	"\/app\/img\/promo.jpg": {
 		"ft": 16384,
-		"iS": 12486,
+		"iS": 483817,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/app\/img\/promo.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/app\/img\/s1.jpg": {
 		"ft": 16384,
-		"iS": 12486,
+		"iS": 556491,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/app\/img\/s1.jpg",
@@ -317,13 +270,13 @@
 		},
 	"\/app\/img\/s2.jpg": {
 		"ft": 16384,
-		"iS": 12486,
+		"iS": 502294,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/app\/img\/s2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/app\/index.pug": {
@@ -346,12 +299,12 @@
 		},
 	"\/favicon.png": {
 		"ft": 32768,
-		"iS": 2667,
+		"iS": 3305,
 		"oA": 0,
 		"oAP": "\/favicon.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -376,7 +329,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 596159312,
-	"displayValue": "sitioB",
+	"displayValue": "sitio",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-trap",
 	"iconImageWasSetByUser": 0

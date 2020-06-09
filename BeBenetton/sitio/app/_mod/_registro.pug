@@ -1,0 +1,35 @@
+mixin regform(textobtn)
+  +input('Número de tarjeta', 'text')
+  +input('Correo electrónico', 'email')
+  +input('Nombre', 'text')
+  +input('Apellido paterno', 'text')
+  +input('Apellido materno', 'text')
+  +input('Fecha de nacimiento', 'date')
+  +input('Número telefónico', 'text')
+  +input('Código postal', 'text')
+  +input('Contraseña', 'password')
+  +input('Verificar contraseña', 'password')
+  if block
+    block
+  
+  button(type="submit").btn.btn-primary.my-5=textobtn
+
+
+mixin registro(onlyform = false, textobtn = 'Registrarme')
+  if(!onlyform)
+    section#registro
+      .container
+        .row.justify-content-center.my-5: h2 Registro
+        .row.justify-content-center.my-5.text-center
+          .col
+            +regform(textobtn)
+              +checkbox('Acepto Términos y Condiciones de ' + nombre)
+              +checkbox('Estoy de acuerdo con la Política de Privacidad')
+  if(onlyform)
+    .row.justify-content-center.my-5.text-center
+      .col
+        +regform(textobtn)
+
+          
+
+

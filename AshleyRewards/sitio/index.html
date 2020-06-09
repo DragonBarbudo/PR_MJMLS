@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap"/>
+    <link rel="stylesheet" href="app/app.css"/>
+    <title>Ashley Rewards</title>
+  </head>
+  <body>
+    <!-- EDO DE CUENTA MODIFICADO############!!!!!!!-->
+    <!-- Login, logout-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"><a class="navbar-brand" href="#"><img src="app/img/LOGO.png" alt="ashleyrewards.com"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainnav">
+        <ul class="navbar nav">
+          <li class="nav-item"><a class="nav-link" href="index.html#que-es">Qué es</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#registro">Registro</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#blue-wallet">Blue Wallet</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#promociones">Promociones</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" data-target="#loginmodal" data-toggle="modal">Iniciar sesión</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="modal fade" id="loginmodal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <h2 class="text-center">Iniciar sesión</h2>
+          <div class="modal-body">
+            <form class="p-5" action="mi-cuenta.html">
+              <input class="form-control mb-3" placeholder="Usuario"/>
+              <input class="form-control mb-3" placeholder="Contraseña" type="password"/>
+              <div class="text-center">
+                <button class="btn btn-primary" type="submit">Iniciar sesión</button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer justify-content-center"><a href="#">Olvidaste tu contraseña.</a><a href="#">¿No tienes cuenta?. Regístrate.</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Secciones-->
+    <div class="carousel slide" data-ride="carousel" id="mainbanner">
+      <div class="carousel-inner">
+        <div class="carousel-item active"><img class="d-block w-100" src="app/img/s1.jpg"/></div>
+        <div class="carousel-item"><img class="d-block w-100" src="app/img/s2.jpg"/></div>
+      </div>
+      <div class="carousel-control-prev" href="#mainbanner" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span></div>
+      <div class="carousel-control-next" href="#mainbanner" role="button" data-slide="next"><span class="carousel-control-next-icon"></span></div>
+    </div>
+    <!-- Qué es-->
+    <section id="que-es">
+      <div class="container">
+        <div class="row justify-content-center my-5">
+          <h2>¿Qué es Ashley Rewards?</h2>
+        </div>
+        <div class="row justify-content-center my-5 text-center">
+          <p><strong>Ashley Rewards</strong> lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed nunc dictum, lobortis eros vitae, elementum lacus. </p>
+        </div>
+      </div>
+    </section>
+    <!-- Registro-->
+        <section id="registro">
+          <div class="container">
+            <div class="row justify-content-center my-5">
+              <h2>Registro</h2>
+            </div>
+            <div class="row justify-content-center my-5 text-center">
+              <div class="col">
+                    <div class="form-group row">
+                      <label class="col-form-label col-md-5 col-12 text-md-right">Número de tarjeta</label>
+                      <input class="form-control col-md-7 col-12" placeholder="Número de tarjeta" type="text" value=""/>
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-form-label col-md-5 col-12 text-md-right">Correo electrónico</label>
+                      <input class="form-control col-md-7 col-12" placeholder="Correo electrónico" type="email" value=""/>
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-form-label col-md-5 col-12 text-md-right">Nombre</label>
+                      <input class="form-control col-md-7 col-12" placeholder="Nombre" type="text" value=""/>
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-form-label col-md-5 col-12 text-md-right">Apellido paterno</label>
+                      <input class="form-control col-md-7 col-12" placeholder="Apellido paterno" type="text" value=""/>
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-form-label col-md-5 col-12 text-md-right">Apellido materno</label>
+                      <input class="form-control col-md-7 col-12" placeholder="Apellido materno" type="text" value=""/>
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-form-label col-md-5 col-12 text-md-right">Fecha de nacimiento</label>
+                      <input class="form-control col-md-7 col-12" placeholder="Fecha de nacimiento" type="date" value=""/>
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-form-label col-md-5 col-12 text-md-right">Número telefónico</label>
+                      <input class="form-control col-md-7 col-12" placeholder="Número telefónico" type="text" value=""/>
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-form-label col-md-5 col-12 text-md-right">Código postal</label>
+                      <input class="form-control col-md-7 col-12" placeholder="Código postal" type="text" value=""/>
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-form-label col-md-5 col-12 text-md-right">Contraseña</label>
+                      <input class="form-control col-md-7 col-12" placeholder="Contraseña" type="password" value=""/>
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-form-label col-md-5 col-12 text-md-right">Verificar contraseña</label>
+                      <input class="form-control col-md-7 col-12" placeholder="Verificar contraseña" type="password" value=""/>
+                    </div>
+                    <label class="form-group row">
+                      <div class="col-2 col-md-5 text-right">
+                        <input type="checkbox"/>
+                      </div>
+                      <div class="col-8 col-md-7 text-left"><span>Acepto Términos y Condiciones de Ashley Rewards</span></div>
+                    </label>
+                    <label class="form-group row">
+                      <div class="col-2 col-md-5 text-right">
+                        <input type="checkbox"/>
+                      </div>
+                      <div class="col-8 col-md-7 text-left"><span>Estoy de acuerdo con la Política de Privacidad</span></div>
+                    </label>
+                    <button class="btn btn-primary my-5" type="submit">Registrarme</button>
+              </div>
+            </div>
+          </div>
+        </section>
+    <!-- BlueWallet-->
+    <section id="blue-wallet">
+      <div class="container">
+        <div class="row justify-content-center my-5">
+          <h2>Blue Wallet</h2>
+        </div>
+        <div class="row justify-content-center my-5">
+          <div class="col-md-6 text-center bwallet">
+            <div>¡Descarga gratis la app</div>
+            <div><img src="app/img/bluewallet.svg" alt="BlueWallet"/></div>
+            <div>ahora mismo!</div>
+          </div>
+        </div>
+        <div class="row justify-content-center my-5">
+          <div class="col-md-6">
+            <ul class="my-5">
+              <li>Genera tu <strong>Tarjeta Digital</strong> de <strong>Ashley Rewards</strong></li>
+              <li>Consulta tu saldo de <strong>Ashley Rewards</strong></li>
+              <li>Consulta tus transacciones.</li>
+              <li>Recibe promociones especiales.</li>
+            </ul>
+            <div class="row my-5 text-center">
+              <div class="col"><img src="app/img/googleplay.png" alt="Google Play"/></div>
+              <div class="col"><img src="app/img/appstore.png" alt="AppStore"/></div>
+            </div>
+          </div>
+          <div class="col-md-6 text-center"><img class="d-block img-fluid mx-auto" src="app/img/bluewallet.png"/></div>
+        </div>
+      </div>
+    </section>
+    <!-- BlueCodes-->
+    <!--include _mod/_bluecodes-->
+    <!-- Catalogo-->
+    <!--include _mod/_catalogo-->
+    <!-- Promociones-->
+    <section id="promociones">
+      <div class="container">
+        <div class="row justify-content-center my-5">
+          <h2>Promociones</h2>
+        </div>
+        <div class="row justify-content-center my-5 text-center">
+          <div class="carousel slide" data-ride="carousel" id="promobanner">
+            <div class="carousel-inner">
+              <div class="carousel-item active"><img class="d-block w-100" src="app/img/promo.jpg"/></div>
+              <div class="carousel-item"><img class="d-block w-100" src="app/img/promo.jpg"/></div>
+            </div>
+            <div class="carousel-control-prev" href="#promobanner" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span></div>
+            <div class="carousel-control-next" href="#promobanner" role="button" data-slide="next"><span class="carousel-control-next-icon"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contacto-->
+    <section id="contacto">
+      <div class="container">
+        <div class="row justify-content-center my-5">
+          <h2>Contacto</h2>
+        </div>
+        <div class="row justify-content-center align-items-center my-5">
+          <div class="col-6">
+            <p><strong>Ashley Rewards</strong> está comprometido a servirte de una manera eficiente, por lo que te pedimos llenes la forma de contacto y envíanos tu duda, sugerencia o queja.</p>
+            <p>Si lo prefieres también nos puedes contactar a través de nuestro correo electrónico info@ashleyrewards.com o al teléfono 55 1234 5678.</p>
+          </div>
+          <div class="col">
+            <form action="#">
+              <input class="form-control mb-1" placeholder="Nombre"/>
+              <input class="form-control mb-1" placeholder="Correo electrónico" type="email"/>
+              <input class="form-control mb-1" placeholder="Teléfono"/>
+              <textarea class="form-control mb-1" placeholder="Mensaje"></textarea>
+              <div class="text-right">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <div class="container">
+      <div class="row justify-content-end"><a href="http://www.bluepureloyalty.com/" target="_blank"><img src="app/img/powered-by-blue.png" alt="Blue"/></a></div>
+    </div>
+    <div class="navbar bg-dark justify-content-center p-0">
+      <ul class="navbar nav p-0">
+        <li class="nav-item"><a class="nav-link" href="#">Términos y condiciones</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Preguntas frecuentes</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Aviso de privacidad</a></li>
+        <li class="nav-item"><a class="nav-link" href="mailto:info@ashleyrewards.com">info@ashleyrewards.com</a></li>
+      </ul>
+    </div>
+    <div class="pleca text-center p-2"><a href="http://www.bluepureloyalty.com/" target="_blank"><img src="app/img/bluemx.png" alt="Blue"/></a></div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="app/app.js"></script>
+  <script src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
+  <script src="https://unpkg.com/smoothscroll-anchor-polyfill"></script>
+</html>

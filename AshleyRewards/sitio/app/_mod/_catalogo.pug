@@ -1,0 +1,9 @@
+section#catalogo
+  .container
+    .row.justify-content-center.my-5: h2 Catálogo
+    .row.justify-content-center.my-5.text-center
+      - var cods =  ['Cuidado personal', 'Hogar', 'Electrodomésticos', 'Fragancias', 'Experiencias', 'Certificados de Regalo']
+      each cod, index in cods
+        .col-md-4.py-3
+          h4.text-center=cod
+          img(src="app/img/canje-"+(index+1)+".jpg").d-block.img-fluid.mx-auto

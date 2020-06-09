@@ -1,0 +1,15 @@
+section#contacto
+  .container
+    .row.justify-content-center.my-5: h2 Contacto
+    .row.justify-content-center.align-items-center.my-5
+      .col-6
+        p #[strong #{nombre}] está comprometido a servirte de una manera eficiente, por lo que te pedimos llenes la forma de contacto y envíanos tu duda, sugerencia o queja.
+        p Si lo prefieres también nos puedes contactar a través de nuestro correo electrónico info@#{url} o al teléfono 55 1234 5678.
+      .col
+        form(action="#")
+          input.form-control(placeholder="Nombre").mb-1
+          input.form-control(placeholder="Correo electrónico" type="email").mb-1
+          input.form-control(placeholder="Teléfono").mb-1
+          textarea.form-control(placeholder="Mensaje").mb-1
+          .text-right
+            button(type="submit").btn.btn-primary Enviar
