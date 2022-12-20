@@ -1,0 +1,31 @@
+<mjml>
+
+  <mj-head>
+		<mj-style>
+      @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    </mj-style>
+    <mj-attributes>
+      <mj-text align="center" color="#555" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="50px" />
+      <mj-section background-color="#fff" />
+    </mj-attributes>
+
+  </mj-head>
+
+  <mj-body background-color="#eee">
+    <mj-section>
+
+      <mj-column>
+        <mj-text>
+          Tipografía
+        </mj-text>
+      </mj-column>
+
+      <mj-column>
+        <mj-text>
+          Ubuntu
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+  </mj-body>
+</mjml>

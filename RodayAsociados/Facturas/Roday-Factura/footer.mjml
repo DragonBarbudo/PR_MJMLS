@@ -1,0 +1,9 @@
+<mj-section>
+
+  <mj-column>
+		<mj-button font-family="Georgia, serif" background-color="#011829" href="mailto:facturas@rodayasociados.com.mx">
+          facturas@rodayasociados.com.mx
+    </mj-button>
+  </mj-column>
+
+</mj-section>

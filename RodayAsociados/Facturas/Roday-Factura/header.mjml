@@ -1,0 +1,11 @@
+<mj-section>
+
+  <mj-column>
+    <mj-image src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG0AAABuBAMAAADfQoDLAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAnUExURQEYKf///6qyt1VlcOPl50laZo2Xn8LHy/T19f39/ThKVxcsPBgtPZFVdEAAAACcSURBVFjDY2AYBaNgFIwC2gJWR0FigEgAmj4WQeKAA5o+RiL1CYzqG9VHQTojN12PZno8QcJCUhQQG/kCQ14fueFCbjyMiBQK9n+GoGQ1kNo+UbANSZQBb0wAw5sLSIkBuYlAegFcFA9ghMQvM5ASAnIVgbQBXHRU36i+UX2j+kb1jeob1Tck9ZHbLkBrhxwnth0yCkbBKBgFVAMAegp1VxkADckAAAAASUVORK5CYII=
+" width="80px"></mj-image>
+    <mj-text align="center" font-weight="bold" font-size="20px" >
+      RODAY & ASOCIADOS
+    </mj-text>
+  </mj-column>
+
+</mj-section>

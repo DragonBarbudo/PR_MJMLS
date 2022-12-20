@@ -1,0 +1,37 @@
+<!-- {{hola}} -->
+<mj-section background-color="#f2edf4">
+  <mj-column>
+    
+    <mj-text align="center" color="#25235f" font-size="26px" font-weight="bold">
+      Hola {{Nombre}}
+    </mj-text>
+    
+  </mj-column>
+</mj-section>
+
+<!-- productos -->
+<mj-section padding="0">
+	<mj-column>
+  	
+    <mj-image href="https://www.eltarjeton.mx" padding="0" src="https://abrir.xyz/blue/mail/productos.jpg"></mj-image>
+    
+  </mj-column>
+</mj-section>
+
+
+<!-- consulta.. -->
+<mj-section background-color="#234270">
+	<mj-column>
+ 
+    <mj-button align="center" color="#ffffff" text-decoration="underline" background-color="transparent" href="https://www.eltarjeton.mx">
+    	CONSULTA LOS PRODUCTOS PARTICIPANTES AQUÍ
+    </mj-button>
+    
+  </mj-column>
+</mj-section>
+
+<!-- vigencia 1 -->
+
+<!-- vigencia 2 -->
+
+ealbinu@gmail.com

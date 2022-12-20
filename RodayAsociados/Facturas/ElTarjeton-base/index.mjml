@@ -1,0 +1,75 @@
+<mjml>
+
+  <mj-head>
+
+    <mj-attributes>
+      <mj-text align="center" color="#555" />
+    </mj-attributes>
+
+  </mj-head>
+
+  <mj-body background-color="#eee">
+
+    <mj-section background-color="#ffdd00">
+    	<mj-column>
+      	<mj-image src="https://via.placeholder.com/180x60" width="180px" align="right"></mj-image>
+      </mj-column>
+    </mj-section>
+
+   <mj-section>
+    	<mj-column vertical-align="middle" >
+      	<mj-text>¡Empieza a acuular puntos!</mj-text>
+      	<mj-image src="https://via.placeholder.com/300"></mj-image>
+        <mj-button color="#ffffff" background-color="#205caf" border-radius="10px" padding="2px">Ir a la tienda en linea</mj-button>
+      </mj-column>
+      <mj-column width="60px"  vertical-align="middle">
+         <mj-text>o</mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle">
+         <mj-text>¡Descarga gratis la App!</mj-text>
+         <mj-image src="https://via.placeholder.com/300"></mj-image>
+				
+
+        <mj-table>
+        	<tr>
+          	<td>
+              <a href="https://apps.apple.com/">
+              <img src="AppStore.svg" width="100%" />
+              </a>
+            </td>
+            <td>
+              <a href=" href="https://play.google.com"">
+              <img src="GooglePlay.svg" width="100%" />
+                </a>
+            </td>
+          </tr>
+        </mj-table>
+
+      </mj-column>
+    </mj-section>
+    
+    
+    <mj-section>
+    	<mj-column>
+      	<mj-text align="left">
+        	<span style="font-size:28px; color:#205cb0; vertical-align:middle;">•</span> Texto con bullet de color.
+        </mj-text>
+        <mj-text align="left">
+        	<span style="color:#205cb0;">•</span> Texto con bullet de color.
+        </mj-text>
+        <mj-text align="left">
+        	<span style="color:#205cb0;">•</span> Texto con bullet de color.
+        </mj-text>
+        <mj-text align="left">
+        	<span style="color:#205cb0;">•</span> Texto con bullet de color.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+
+    
+    
+
+  </mj-body>
+
+</mjml>

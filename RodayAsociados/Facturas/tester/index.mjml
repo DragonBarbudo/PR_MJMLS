@@ -1,0 +1,133 @@
+<mjml>
+
+  <mj-head>
+
+    <mj-attributes>
+      <mj-text align="center" color="#6f6f6e" font-family="sans-serif" font-size="15px" font-weight="200" />
+      <mj-section background-color="#fff" />
+    </mj-attributes>
+
+  </mj-head>
+
+  <mj-body background-color="#ffffff">
+	<mj-section padding="0">
+    <mj-column>
+    	<mj-image padding="0" src="/header.jpg"></mj-image>
+    </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text color="#666666" font-weight="bold" font-size="26px">
+          Ciudadan&iacute;a Digital en la escuela
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      	<mj-column>
+        	<mj-text padding-bottom="0" align="left" letter-spacing="0.52px">
+          ¡Continuamos celebrando el mes de la ciudadanía digital! Esta semana tenemos nuestro segundo webinar, en el que charlaremos con expertos acerca de la importancia de construir ciudadanía digital desde la perspectiva educativa: cómo enseñar a nuestros estudiantes a ser inclusivos, informados, comprometidos, balanceados y alertas.</mj-text>
+        </mj-column>
+      </mj-section>
+    <mj-section>
+    	<mj-column>
+      	<mj-image padding="0" src="/imagen.jpg"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section>
+      <mj-column>
+        <mj-text padding="0" color="#666666" font-size="22px">
+          ¡Únete a la transmisión y comparte tus ideas!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="0">
+      <mj-column>
+        <mj-text color="#666666" font-size="16px">
+          Jueves 13 de octubre
+					</br>
+          18: 00 hrs.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section padding-top="0">
+      <mj-column>
+				<mj-image href="https://www.youtube.com/watch?v=WEi5jI_454w" padding="0" src="/btn_iralatransmision.png" width="248px"></mj-image>
+      </mj-column>
+    </mj-section>
+  
+  <mj-section padding="0">
+      <mj-column>
+        <mj-text color="#666666" font-weight="bold" font-size="24px">
+          ¿Ya tienes tu pasaporte de Ciudadano Digital?
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  
+  <mj-section>
+    	<mj-column>
+      	<mj-image padding="0" src="/imagen2.jpg"></mj-image>
+      </mj-column>
+    </mj-section>
+  
+  
+  <mj-section padding="0">
+      	<mj-column>
+        	<mj-text padding-bottom="0" align="left" letter-spacing="0.52px">
+          Descarga tu pasaporte y colecciona las insignias que iremos liberando a lo largo del mes. Este pasaporte, una vez completado, te acredita como ciudadano digital oficial empático, activo y responsable, para seguir inspirando a otros a usar las herramientas digitales del siglo XXI con criterio.
+            </br></br>	
+          Una vez completado, regresa a nuestro blog para descargar tu certificado y tener todos tus documentos digitales oficiales en regla.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+
+    <mj-section>
+      <mj-column>
+				<mj-image href="https://digitalfamily.mx/innovandojuntos/descarga-tu-pasaporte-de-ciudadano-digital/" src="/btn_descarga.png" width="248px"></mj-image>
+      </mj-column>
+    </mj-section>
+
+<mj-section>
+
+      <mj-column>
+        <mj-text padding="0" color="#666666" font-size="20px">
+          ¡Gracias por sumarte a nuestra comunidad!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  
+
+	<mj-section>
+      	<mj-group width="240px">
+		
+          <mj-column>
+            <mj-image padding="0" href="https://www.facebook.com/DigitalFamilyMx" src="/rs_fb.png" width="40px"></mj-image> 
+          </mj-column>
+          <mj-column>
+            <mj-image padding="0" href="https://www.instagram.com/digitalfamily.mx/?hl=es" src="/rs_ig.png" width="40px"></mj-image> 
+          </mj-column>
+          <mj-column>
+            <mj-image padding="0" href="https://twitter.com/digitalfamilytw?lang=es" src="/rs_tw.png" width="40px"></mj-image> 
+          </mj-column>
+          <mj-column>
+            <mj-image padding="0" href="https://www.youtube.com/channel/UCRb3a_6zXzs_xIgcVLUpysw" src="//rs_yt.png" width="40px"></mj-image> 
+          </mj-column>
+          <mj-column>
+            <mj-image padding="0" href="https://www.linkedin.com/company/digitalfamily/" src="/rs_in.png" width="40px"></mj-image> 
+          </mj-column>          
+    </mj-group>
+</mj-section>
+  
+    <mj-section background-color="#e1e1e1" padding="0">
+    	<mj-column>
+      	<mj-image padding-top="2px" padding-bottom="2px" src="/powered.png" width="148px"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+    
+  </mj-body>
+</mjml>
