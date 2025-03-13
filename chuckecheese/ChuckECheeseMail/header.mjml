@@ -1,0 +1,15 @@
+<mj-section padding="0"  background-color="#ffffff">
+	<mj-column>
+  	<mj-image padding="0" src="https://chuckecheesesmexico.com/emailassets/chuckehead.png"></mj-image>
+  </mj-column>
+</mj-section>
+
+<mj-section background-color="#ffffff">
+
+  <mj-column>
+    <mj-text align="center">
+      <h1 style="color:#411b5a;">{{titulo}}</h1>
+    </mj-text>
+  </mj-column>
+
+</mj-section>

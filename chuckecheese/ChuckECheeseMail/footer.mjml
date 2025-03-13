@@ -1,0 +1,31 @@
+
+<mj-section  background-color="#ffffff">
+	<mj-column>
+  	<mj-image href="https://wa.me/+525549552615?text=Hola." width="200px" padding="0" src="https://chuckecheesesmexico.com/emailassets/whatsapp.png"></mj-image>
+  </mj-column>
+</mj-section>
+
+<mj-section  background-color="#ffffff">
+	<mj-column>
+  	<mj-image href="https://chuckecheesesmexico.com/" width="280px" padding="0" src="https://chuckecheesesmexico.com/emailassets/chuckecheesesmexicocom.png"></mj-image>
+  </mj-column>
+</mj-section>
+
+
+<mj-section background-color="#ffffff">
+	<mj-group>
+  <mj-column>
+    <mj-image href="https://chuckecheesesmexico.com/metepec" src="https://chuckecheesesmexico.com/emailassets/metepec.png"></mj-image>
+  </mj-column>
+   <mj-column>
+    <mj-image href="https://chuckecheesesmexico.com/veracruz" src="https://chuckecheesesmexico.com/emailassets/veracruz.png"></mj-image>
+  </mj-column>
+    </mj-group>
+
+</mj-section>
+
+<mj-section padding="0"  background-color="#ffffff">
+	<mj-column>
+  	<mj-image padding="0" src="https://chuckecheesesmexico.com/emailassets/purplewavebottom.png"></mj-image>
+  </mj-column>
+</mj-section>
